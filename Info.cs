@@ -25,13 +25,24 @@ namespace patnja
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-            SoundPlayer player = new SoundPlayer(@"lajanje.wav");
+            SoundPlayer player = new(@"lajanje.wav");
             player.Play();
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             var uri = "https://www.lukastefanovic.com/";
+            var psi = new System.Diagnostics.ProcessStartInfo
+            {
+                UseShellExecute = true,
+                FileName = uri
+            };
+            System.Diagnostics.Process.Start(psi);
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            var uri = "https://github.com/LukaStef/kalkulator";
             var psi = new System.Diagnostics.ProcessStartInfo
             {
                 UseShellExecute = true,

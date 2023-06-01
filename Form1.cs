@@ -10,22 +10,21 @@ namespace patnja
         {
             InitializeComponent();
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-        }
+        //napravljeno: 21.11.2022.
+        //poslednja izmena: 24.05.2023.
+        #region promenljive
         double m = 0; //memorija
         double p = 0; //prvi broj
         double d = 0; //drugi broj
         double r; //resenje
-        string o=""; //operacija
-        string i = "",znak=""; //ispis za istoriju
-        int r1,r2; //za random operaciju
+        string o = ""; //operacija
+        string i = "", znak = ""; //ispis za istoriju
+        int r1, r2; //za random operaciju
         int zk; //za zaokruzivanje
-        bool greska=false; //ne ispisuje istoriju ako je true
+        bool greska = false; //ne ispisuje istoriju ako je true
         readonly Random R = new(); //random
-
-        //---osnovno---
-
+        #endregion
+        #region osnovno
         private void buttonac_Click(object sender, EventArgs e) // AC
         {
             d = 0;
@@ -63,12 +62,11 @@ namespace patnja
             }
             catch
             {
-                MessageBox.Show("Unos nije u dobrom formatu","Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Unos nije u dobrom formatu", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        //---unos brojeva---
-
+        #endregion
+        #region unos brojeva
         private void button0_Click(object sender, EventArgs e)
         {
             textBox1.Text += "0";
@@ -134,9 +132,8 @@ namespace patnja
                 MessageBox.Show("Unos nije u dobrom formatu", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        //---memorija---
-
+        #endregion
+        #region memorija
         private void buttonm_Click(object sender, EventArgs e) // M
         {
             try
@@ -194,9 +191,8 @@ namespace patnja
         {
             richTextBoxIST.Text = "";
         }
-
-        //---operacije---
-
+        #endregion
+        #region operacije
         private void buttonjednako_Click(object sender, EventArgs e) // =
         {
             try
@@ -223,7 +219,7 @@ namespace patnja
                     r2 = int.Parse(textBox1.Text);
                     if (r1 < r2)
                     {
-                        r = R.Next(r1, r2+1);
+                        r = R.Next(r1, r2 + 1);
                         richTextBoxIST.Text += "Izmedju ";
                         znak = " i ";
                     }
@@ -298,7 +294,7 @@ namespace patnja
                 }
                 //istorija
                 if (greska == false)
-                { 
+                {
                     i = p.ToString() + znak.ToString() + d.ToString() + " = " + r + "\n";
                     richTextBoxIST.Text += i;
                 }
@@ -431,7 +427,7 @@ namespace patnja
                 }
                 if (radioButtonRAD.Checked == true)
                 {
-                    r = Math.Sin(p); 
+                    r = Math.Sin(p);
                 }
                 i = "sin(" + p + ") = " + r + "\n";
                 richTextBoxIST.Text += i;
@@ -501,7 +497,7 @@ namespace patnja
                 r = radijan;
                 if (radioButtonDEG.Checked == true)
                 {
-                    r = radijan * 180/Math.PI;//Pretvaram u stepene
+                    r = radijan * 180 / Math.PI;//Pretvaram u stepene
                 }
                 i = "arcsin(" + p + ") = " + r + "\n";
                 richTextBoxIST.Text += i;
@@ -604,7 +600,7 @@ namespace patnja
                 {
                     r1 = int.Parse(textBox1.Text);
                 }
-                catch 
+                catch
                 {
                     MessageBox.Show("Unos nije u dobrom formatu", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
@@ -616,9 +612,8 @@ namespace patnja
                 MessageBox.Show("Unos nije u dobrom formatu", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-        //---konverzija---
-
+        #endregion
+        #region konverzija
         private void buttonconvert_Click(object sender, EventArgs e)
         {
             try
@@ -708,114 +703,136 @@ namespace patnja
                 MessageBox.Show("Unos nije u dobrom formatu", "Greška", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        //---meni---
-
+        #endregion
+        #region podaplikacije
+        Form f;
         private void uputstvoToolStripMenuItem_Click(object sender, EventArgs e) // uputstvo
         {
             //MessageBox.Show("Unos brojeva je moguć preko tastature ili preko ugrađenih dugmića na aplikaciji. Nakon unosa broja, izaberite željenu operaciju, ili, ako je potrebno, upišite još jedan broj pa kliknite dugme '='.\nKliknite na dugme 'Podaplikacije' da dobijete listu svih podaplikacija ovog kalkulatora i otvorite onu koja vam treba.", "Uputstvo", MessageBoxButtons.OK,MessageBoxIcon.Information);
             Uput.Tekst = "Glavna aplikacija";
-            Uputstvo u = new();
-            u.ShowDialog();
+            f = new Uputstvo()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
+            f.ShowDialog();
         }
+        
         private void verzijaToolStripMenuItem_Click(object sender, EventArgs e) // verzija
         {
             //MessageBox.Show("Kalkulator\nTrenutna verzija: 02.03.2023.\nPrva verzija: 21.11.2022.\nAutor: Luka Stefanović", "Verzija", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            Form f = new Info();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new Info()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void X3SistemToolStripMenuItem_Click(object sender, EventArgs e) //sistemi
         {
-            Form f = new SisKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new SisKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void kvadratnaJednačinaToolStripMenuItem_Click(object sender, EventArgs e) //kvadratne jednacine
         {
-            Form f = new KvadKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new KvadKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void analitikaTačkeToolStripMenuItem1_Click(object sender, EventArgs e) //tacka
         {
-            Form f = new AnTac();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new AnTac()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void analitikaPraveToolStripMenuItem1_Click(object sender, EventArgs e) //prava
         {
-            Form f = new AnPrav();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new AnPrav()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void dužinaToolStripMenuItem_Click(object sender, EventArgs e) //duzina
         {
-            Form f = new DuzKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new DuzKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void masaToolStripMenuItem_Click(object sender, EventArgs e) //masa
         {
-            Form f = new MasKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new MasKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void ugaoToolStripMenuItem_Click(object sender, EventArgs e) //ugao
         {
-            Form f = new UglKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new UglKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void temperaturaToolStripMenuItem_Click(object sender, EventArgs e) //temperatura
         {
-            Form f = new TempKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new TempKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void kompleksniBrojToolStripMenuItem_Click(object sender, EventArgs e) //kompleksni brojevi
         {
-            Form f = new KompKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new KompKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void logičkeOperacijeToolStripMenuItem_Click(object sender, EventArgs e) //logicke operacije
         {
-            Form f = new LogKal();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new LogKal()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
 
         private void kružnicaToolStripMenuItem_Click(object sender, EventArgs e) //kruznica
         {
-            Form f = new Kruz();
-            f.StartPosition = FormStartPosition.CenterScreen;
+            f = new Kruz()
+            {
+                StartPosition = FormStartPosition.CenterScreen
+            };
             f.Show();
         }
-
-        //---otvaranje i cuvanje istorije---
+        #endregion
+        #region otvaranje i cuvanje istorije
         readonly string path = @"istorija.txt";
         private void sačuvajIstorijuToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DateTime danasnjiDan = DateTime.Now;
             File.AppendAllText(path, danasnjiDan + "\n\n" + richTextBoxIST.Text + "\n\n-kraj\n\n");
             MessageBox.Show("Istorija uspešno sačuvana.", "Uspeh", MessageBoxButtons.OK, MessageBoxIcon.Information);
-        }
-
-        private void elpisaToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form f = new Elip();
-            f.StartPosition = FormStartPosition.CenterScreen;
-            f.Show();
         }
 
         private void očistiFajlToolStripMenuItem_Click(object sender, EventArgs e)
@@ -832,5 +849,6 @@ namespace patnja
         {
             Process.Start(@"notepad.exe", path);
         }
+        #endregion
     }
 }

@@ -28,1172 +28,1137 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.oAplikacijiToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.uputstvoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.verzijaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logickiKalkulatorToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.jednačineToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.x3SistemToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kvadratnaJednačinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.analitičkaGeometrijaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.analitikaTačkeToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.analitikaPraveToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.kružnicaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.konverzijaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.dužinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.masaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ugaoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.temperaturaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ostaloToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kompleksniBrojToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logičkeOperacijeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fajlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.otvoriFajlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sačuvajIstorijuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.očistiFajlToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.buttonacist = new System.Windows.Forms.Button();
-            this.richTextBoxIST = new System.Windows.Forms.RichTextBox();
-            this.buttonplus = new System.Windows.Forms.Button();
-            this.buttonlogx = new System.Windows.Forms.Button();
-            this.buttonmminus = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.buttonasin = new System.Windows.Forms.Button();
-            this.button0 = new System.Windows.Forms.Button();
-            this.buttonminus = new System.Windows.Forms.Button();
-            this.buttonpodeljeno = new System.Windows.Forms.Button();
-            this.buttonacos = new System.Windows.Forms.Button();
-            this.buttonmplus = new System.Windows.Forms.Button();
-            this.buttonm = new System.Windows.Forms.Button();
-            this.buttone = new System.Windows.Forms.Button();
-            this.buttontan = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.buttonputa = new System.Windows.Forms.Button();
-            this.buttonpi = new System.Windows.Forms.Button();
-            this.buttonatan = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.buttonprocenat = new System.Windows.Forms.Button();
-            this.buttoncos = new System.Windows.Forms.Button();
-            this.buttoncm = new System.Windows.Forms.Button();
-            this.buttonkoren = new System.Windows.Forms.Button();
-            this.buttonrnd = new System.Windows.Forms.Button();
-            this.buttonround = new System.Windows.Forms.Button();
-            this.buttontacka = new System.Windows.Forms.Button();
-            this.radioButtonDEG = new System.Windows.Forms.RadioButton();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.buttonsin = new System.Windows.Forms.Button();
-            this.buttonfaktorijal = new System.Windows.Forms.Button();
-            this.buttonstepen = new System.Windows.Forms.Button();
-            this.buttonplusminus = new System.Windows.Forms.Button();
-            this.radioButtonRAD = new System.Windows.Forms.RadioButton();
-            this.buttonrm = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.textBoxM = new System.Windows.Forms.TextBox();
-            this.textBoxHEX = new System.Windows.Forms.TextBox();
-            this.textBoxOCT = new System.Windows.Forms.TextBox();
-            this.buttonconvert = new System.Windows.Forms.Button();
-            this.textBoxBIN = new System.Windows.Forms.TextBox();
-            this.buttonac = new System.Windows.Forms.Button();
-            this.buttonc = new System.Windows.Forms.Button();
-            this.buttonjednako = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.buttonback = new System.Windows.Forms.Button();
-            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.elpisaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.panel2.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.SuspendLayout();
+            menuStrip1 = new MenuStrip();
+            oAplikacijiToolStripMenuItem = new ToolStripMenuItem();
+            uputstvoToolStripMenuItem = new ToolStripMenuItem();
+            verzijaToolStripMenuItem = new ToolStripMenuItem();
+            logickiKalkulatorToolStripMenuItem1 = new ToolStripMenuItem();
+            jednačineToolStripMenuItem = new ToolStripMenuItem();
+            x3SistemToolStripMenuItem = new ToolStripMenuItem();
+            kvadratnaJednačinaToolStripMenuItem = new ToolStripMenuItem();
+            analitičkaGeometrijaToolStripMenuItem = new ToolStripMenuItem();
+            analitikaTačkeToolStripMenuItem1 = new ToolStripMenuItem();
+            analitikaPraveToolStripMenuItem1 = new ToolStripMenuItem();
+            kružnicaToolStripMenuItem = new ToolStripMenuItem();
+            konverzijaToolStripMenuItem = new ToolStripMenuItem();
+            dužinaToolStripMenuItem = new ToolStripMenuItem();
+            masaToolStripMenuItem = new ToolStripMenuItem();
+            ugaoToolStripMenuItem = new ToolStripMenuItem();
+            temperaturaToolStripMenuItem = new ToolStripMenuItem();
+            ostaloToolStripMenuItem = new ToolStripMenuItem();
+            kompleksniBrojToolStripMenuItem = new ToolStripMenuItem();
+            logičkeOperacijeToolStripMenuItem = new ToolStripMenuItem();
+            fajlToolStripMenuItem = new ToolStripMenuItem();
+            otvoriFajlToolStripMenuItem = new ToolStripMenuItem();
+            sačuvajIstorijuToolStripMenuItem = new ToolStripMenuItem();
+            očistiFajlToolStripMenuItem = new ToolStripMenuItem();
+            toolTip = new ToolTip(components);
+            buttonacist = new Button();
+            richTextBoxIST = new RichTextBox();
+            buttonplus = new Button();
+            buttonlogx = new Button();
+            buttonmminus = new Button();
+            button4 = new Button();
+            button3 = new Button();
+            buttonasin = new Button();
+            button0 = new Button();
+            buttonminus = new Button();
+            buttonpodeljeno = new Button();
+            buttonacos = new Button();
+            buttonmplus = new Button();
+            buttonm = new Button();
+            buttone = new Button();
+            buttontan = new Button();
+            button8 = new Button();
+            buttonputa = new Button();
+            buttonpi = new Button();
+            buttonatan = new Button();
+            button9 = new Button();
+            button6 = new Button();
+            buttonprocenat = new Button();
+            buttoncos = new Button();
+            buttoncm = new Button();
+            buttonkoren = new Button();
+            buttonrnd = new Button();
+            buttonround = new Button();
+            buttontacka = new Button();
+            radioButtonDEG = new RadioButton();
+            button1 = new Button();
+            button5 = new Button();
+            button2 = new Button();
+            buttonsin = new Button();
+            buttonfaktorijal = new Button();
+            buttonstepen = new Button();
+            buttonplusminus = new Button();
+            radioButtonRAD = new RadioButton();
+            buttonrm = new Button();
+            button7 = new Button();
+            textBoxM = new TextBox();
+            textBoxHEX = new TextBox();
+            textBoxOCT = new TextBox();
+            buttonconvert = new Button();
+            textBoxBIN = new TextBox();
+            buttonac = new Button();
+            buttonc = new Button();
+            buttonjednako = new Button();
+            textBox1 = new TextBox();
+            buttonback = new Button();
+            toolTip1 = new ToolTip(components);
+            panel3 = new Panel();
+            groupBox1 = new GroupBox();
+            panel2 = new Panel();
+            groupBox4 = new GroupBox();
+            panel4 = new Panel();
+            groupBox2 = new GroupBox();
+            panel1 = new Panel();
+            groupBox3 = new GroupBox();
+            label5 = new Label();
+            label4 = new Label();
+            label3 = new Label();
+            panel5 = new Panel();
+            menuStrip1.SuspendLayout();
+            panel3.SuspendLayout();
+            groupBox1.SuspendLayout();
+            panel2.SuspendLayout();
+            groupBox4.SuspendLayout();
+            panel4.SuspendLayout();
+            groupBox2.SuspendLayout();
+            panel1.SuspendLayout();
+            groupBox3.SuspendLayout();
+            panel5.SuspendLayout();
+            SuspendLayout();
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.Gray;
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.oAplikacijiToolStripMenuItem,
-            this.logickiKalkulatorToolStripMenuItem1,
-            this.fajlToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(543, 24);
-            this.menuStrip1.TabIndex = 53;
-            this.menuStrip1.Text = "menuStrip1";
+            menuStrip1.BackColor = Color.Gray;
+            menuStrip1.Items.AddRange(new ToolStripItem[] { oAplikacijiToolStripMenuItem, logickiKalkulatorToolStripMenuItem1, fajlToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(543, 24);
+            menuStrip1.TabIndex = 53;
+            menuStrip1.Text = "menuStrip1";
             // 
             // oAplikacijiToolStripMenuItem
             // 
-            this.oAplikacijiToolStripMenuItem.BackColor = System.Drawing.Color.Silver;
-            this.oAplikacijiToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.uputstvoToolStripMenuItem,
-            this.verzijaToolStripMenuItem});
-            this.oAplikacijiToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.oAplikacijiToolStripMenuItem.Name = "oAplikacijiToolStripMenuItem";
-            this.oAplikacijiToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
-            this.oAplikacijiToolStripMenuItem.Text = "O aplikaciji";
+            oAplikacijiToolStripMenuItem.BackColor = Color.Silver;
+            oAplikacijiToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { uputstvoToolStripMenuItem, verzijaToolStripMenuItem });
+            oAplikacijiToolStripMenuItem.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            oAplikacijiToolStripMenuItem.Name = "oAplikacijiToolStripMenuItem";
+            oAplikacijiToolStripMenuItem.Size = new Size(77, 20);
+            oAplikacijiToolStripMenuItem.Text = "O aplikaciji";
             // 
             // uputstvoToolStripMenuItem
             // 
-            this.uputstvoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("uputstvoToolStripMenuItem.Image")));
-            this.uputstvoToolStripMenuItem.Name = "uputstvoToolStripMenuItem";
-            this.uputstvoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.U)));
-            this.uputstvoToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.uputstvoToolStripMenuItem.Text = "Uputstvo";
-            this.uputstvoToolStripMenuItem.Click += new System.EventHandler(this.uputstvoToolStripMenuItem_Click);
+            uputstvoToolStripMenuItem.Image = (Image)resources.GetObject("uputstvoToolStripMenuItem.Image");
+            uputstvoToolStripMenuItem.Name = "uputstvoToolStripMenuItem";
+            uputstvoToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.U;
+            uputstvoToolStripMenuItem.Size = new Size(174, 22);
+            uputstvoToolStripMenuItem.Text = "Uputstvo";
+            uputstvoToolStripMenuItem.Click += uputstvoToolStripMenuItem_Click;
             // 
             // verzijaToolStripMenuItem
             // 
-            this.verzijaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("verzijaToolStripMenuItem.Image")));
-            this.verzijaToolStripMenuItem.Name = "verzijaToolStripMenuItem";
-            this.verzijaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.E)));
-            this.verzijaToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
-            this.verzijaToolStripMenuItem.Text = "Informacija";
-            this.verzijaToolStripMenuItem.Click += new System.EventHandler(this.verzijaToolStripMenuItem_Click);
+            verzijaToolStripMenuItem.Image = (Image)resources.GetObject("verzijaToolStripMenuItem.Image");
+            verzijaToolStripMenuItem.Name = "verzijaToolStripMenuItem";
+            verzijaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.E;
+            verzijaToolStripMenuItem.Size = new Size(174, 22);
+            verzijaToolStripMenuItem.Text = "Informacija";
+            verzijaToolStripMenuItem.Click += verzijaToolStripMenuItem_Click;
             // 
             // logickiKalkulatorToolStripMenuItem1
             // 
-            this.logickiKalkulatorToolStripMenuItem1.BackColor = System.Drawing.Color.Silver;
-            this.logickiKalkulatorToolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.jednačineToolStripMenuItem,
-            this.analitičkaGeometrijaToolStripMenuItem,
-            this.konverzijaToolStripMenuItem,
-            this.ostaloToolStripMenuItem});
-            this.logickiKalkulatorToolStripMenuItem1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.logickiKalkulatorToolStripMenuItem1.Name = "logickiKalkulatorToolStripMenuItem1";
-            this.logickiKalkulatorToolStripMenuItem1.Size = new System.Drawing.Size(89, 20);
-            this.logickiKalkulatorToolStripMenuItem1.Text = "Podaplikacije";
+            logickiKalkulatorToolStripMenuItem1.BackColor = Color.Silver;
+            logickiKalkulatorToolStripMenuItem1.DropDownItems.AddRange(new ToolStripItem[] { jednačineToolStripMenuItem, analitičkaGeometrijaToolStripMenuItem, konverzijaToolStripMenuItem, ostaloToolStripMenuItem });
+            logickiKalkulatorToolStripMenuItem1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            logickiKalkulatorToolStripMenuItem1.Name = "logickiKalkulatorToolStripMenuItem1";
+            logickiKalkulatorToolStripMenuItem1.Size = new Size(89, 20);
+            logickiKalkulatorToolStripMenuItem1.Text = "Podaplikacije";
             // 
             // jednačineToolStripMenuItem
             // 
-            this.jednačineToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.x3SistemToolStripMenuItem,
-            this.kvadratnaJednačinaToolStripMenuItem});
-            this.jednačineToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("jednačineToolStripMenuItem.Image")));
-            this.jednačineToolStripMenuItem.Name = "jednačineToolStripMenuItem";
-            this.jednačineToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.jednačineToolStripMenuItem.Text = "Jednačine";
+            jednačineToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { x3SistemToolStripMenuItem, kvadratnaJednačinaToolStripMenuItem });
+            jednačineToolStripMenuItem.Image = (Image)resources.GetObject("jednačineToolStripMenuItem.Image");
+            jednačineToolStripMenuItem.Name = "jednačineToolStripMenuItem";
+            jednačineToolStripMenuItem.Size = new Size(186, 22);
+            jednačineToolStripMenuItem.Text = "Jednačine";
             // 
             // x3SistemToolStripMenuItem
             // 
-            this.x3SistemToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("x3SistemToolStripMenuItem.Image")));
-            this.x3SistemToolStripMenuItem.Name = "x3SistemToolStripMenuItem";
-            this.x3SistemToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.x3SistemToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
-            this.x3SistemToolStripMenuItem.Text = "3x3 sistem";
-            this.x3SistemToolStripMenuItem.Click += new System.EventHandler(this.X3SistemToolStripMenuItem_Click);
+            x3SistemToolStripMenuItem.Image = (Image)resources.GetObject("x3SistemToolStripMenuItem.Image");
+            x3SistemToolStripMenuItem.Name = "x3SistemToolStripMenuItem";
+            x3SistemToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.N;
+            x3SistemToolStripMenuItem.Size = new Size(219, 22);
+            x3SistemToolStripMenuItem.Text = "3x3 sistem";
+            x3SistemToolStripMenuItem.Click += X3SistemToolStripMenuItem_Click;
             // 
             // kvadratnaJednačinaToolStripMenuItem
             // 
-            this.kvadratnaJednačinaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("kvadratnaJednačinaToolStripMenuItem.Image")));
-            this.kvadratnaJednačinaToolStripMenuItem.Name = "kvadratnaJednačinaToolStripMenuItem";
-            this.kvadratnaJednačinaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.J)));
-            this.kvadratnaJednačinaToolStripMenuItem.Size = new System.Drawing.Size(219, 22);
-            this.kvadratnaJednačinaToolStripMenuItem.Text = "Kvadratna jednačina";
-            this.kvadratnaJednačinaToolStripMenuItem.Click += new System.EventHandler(this.kvadratnaJednačinaToolStripMenuItem_Click);
+            kvadratnaJednačinaToolStripMenuItem.Image = (Image)resources.GetObject("kvadratnaJednačinaToolStripMenuItem.Image");
+            kvadratnaJednačinaToolStripMenuItem.Name = "kvadratnaJednačinaToolStripMenuItem";
+            kvadratnaJednačinaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.J;
+            kvadratnaJednačinaToolStripMenuItem.Size = new Size(219, 22);
+            kvadratnaJednačinaToolStripMenuItem.Text = "Kvadratna jednačina";
+            kvadratnaJednačinaToolStripMenuItem.Click += kvadratnaJednačinaToolStripMenuItem_Click;
             // 
             // analitičkaGeometrijaToolStripMenuItem
             // 
-            this.analitičkaGeometrijaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.analitikaTačkeToolStripMenuItem1,
-            this.analitikaPraveToolStripMenuItem1,
-            this.kružnicaToolStripMenuItem,
-            this.elpisaToolStripMenuItem});
-            this.analitičkaGeometrijaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("analitičkaGeometrijaToolStripMenuItem.Image")));
-            this.analitičkaGeometrijaToolStripMenuItem.Name = "analitičkaGeometrijaToolStripMenuItem";
-            this.analitičkaGeometrijaToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.analitičkaGeometrijaToolStripMenuItem.Text = "Analitička geometrija";
+            analitičkaGeometrijaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { analitikaTačkeToolStripMenuItem1, analitikaPraveToolStripMenuItem1, kružnicaToolStripMenuItem });
+            analitičkaGeometrijaToolStripMenuItem.Image = (Image)resources.GetObject("analitičkaGeometrijaToolStripMenuItem.Image");
+            analitičkaGeometrijaToolStripMenuItem.Name = "analitičkaGeometrijaToolStripMenuItem";
+            analitičkaGeometrijaToolStripMenuItem.Size = new Size(186, 22);
+            analitičkaGeometrijaToolStripMenuItem.Text = "Analitička geometrija";
             // 
             // analitikaTačkeToolStripMenuItem1
             // 
-            this.analitikaTačkeToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("analitikaTačkeToolStripMenuItem1.Image")));
-            this.analitikaTačkeToolStripMenuItem1.Name = "analitikaTačkeToolStripMenuItem1";
-            this.analitikaTačkeToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.analitikaTačkeToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.analitikaTačkeToolStripMenuItem1.Text = "Tačka";
-            this.analitikaTačkeToolStripMenuItem1.Click += new System.EventHandler(this.analitikaTačkeToolStripMenuItem1_Click);
+            analitikaTačkeToolStripMenuItem1.Image = (Image)resources.GetObject("analitikaTačkeToolStripMenuItem1.Image");
+            analitikaTačkeToolStripMenuItem1.Name = "analitikaTačkeToolStripMenuItem1";
+            analitikaTačkeToolStripMenuItem1.ShortcutKeys = Keys.Control | Keys.T;
+            analitikaTačkeToolStripMenuItem1.Size = new Size(180, 22);
+            analitikaTačkeToolStripMenuItem1.Text = "Tačka";
+            analitikaTačkeToolStripMenuItem1.Click += analitikaTačkeToolStripMenuItem1_Click;
             // 
             // analitikaPraveToolStripMenuItem1
             // 
-            this.analitikaPraveToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("analitikaPraveToolStripMenuItem1.Image")));
-            this.analitikaPraveToolStripMenuItem1.Name = "analitikaPraveToolStripMenuItem1";
-            this.analitikaPraveToolStripMenuItem1.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.P)));
-            this.analitikaPraveToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
-            this.analitikaPraveToolStripMenuItem1.Text = "Prava";
-            this.analitikaPraveToolStripMenuItem1.Click += new System.EventHandler(this.analitikaPraveToolStripMenuItem1_Click);
+            analitikaPraveToolStripMenuItem1.Image = (Image)resources.GetObject("analitikaPraveToolStripMenuItem1.Image");
+            analitikaPraveToolStripMenuItem1.Name = "analitikaPraveToolStripMenuItem1";
+            analitikaPraveToolStripMenuItem1.ShortcutKeys = Keys.Control | Keys.P;
+            analitikaPraveToolStripMenuItem1.Size = new Size(180, 22);
+            analitikaPraveToolStripMenuItem1.Text = "Prava";
+            analitikaPraveToolStripMenuItem1.Click += analitikaPraveToolStripMenuItem1_Click;
             // 
             // kružnicaToolStripMenuItem
             // 
-            this.kružnicaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("kružnicaToolStripMenuItem.Image")));
-            this.kružnicaToolStripMenuItem.Name = "kružnicaToolStripMenuItem";
-            this.kružnicaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.K)));
-            this.kružnicaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.kružnicaToolStripMenuItem.Text = "Kružnica";
-            this.kružnicaToolStripMenuItem.Click += new System.EventHandler(this.kružnicaToolStripMenuItem_Click);
+            kružnicaToolStripMenuItem.Image = (Image)resources.GetObject("kružnicaToolStripMenuItem.Image");
+            kružnicaToolStripMenuItem.Name = "kružnicaToolStripMenuItem";
+            kružnicaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.K;
+            kružnicaToolStripMenuItem.Size = new Size(180, 22);
+            kružnicaToolStripMenuItem.Text = "Kružnica";
+            kružnicaToolStripMenuItem.Click += kružnicaToolStripMenuItem_Click;
             // 
             // konverzijaToolStripMenuItem
             // 
-            this.konverzijaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.dužinaToolStripMenuItem,
-            this.masaToolStripMenuItem,
-            this.ugaoToolStripMenuItem,
-            this.temperaturaToolStripMenuItem});
-            this.konverzijaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("konverzijaToolStripMenuItem.Image")));
-            this.konverzijaToolStripMenuItem.Name = "konverzijaToolStripMenuItem";
-            this.konverzijaToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.konverzijaToolStripMenuItem.Text = "Konverzija";
+            konverzijaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { dužinaToolStripMenuItem, masaToolStripMenuItem, ugaoToolStripMenuItem, temperaturaToolStripMenuItem });
+            konverzijaToolStripMenuItem.Image = (Image)resources.GetObject("konverzijaToolStripMenuItem.Image");
+            konverzijaToolStripMenuItem.Name = "konverzijaToolStripMenuItem";
+            konverzijaToolStripMenuItem.Size = new Size(186, 22);
+            konverzijaToolStripMenuItem.Text = "Konverzija";
             // 
             // dužinaToolStripMenuItem
             // 
-            this.dužinaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("dužinaToolStripMenuItem.Image")));
-            this.dužinaToolStripMenuItem.Name = "dužinaToolStripMenuItem";
-            this.dužinaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.D)));
-            this.dužinaToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.dužinaToolStripMenuItem.Text = "Dužina";
-            this.dužinaToolStripMenuItem.Click += new System.EventHandler(this.dužinaToolStripMenuItem_Click);
+            dužinaToolStripMenuItem.Image = (Image)resources.GetObject("dužinaToolStripMenuItem.Image");
+            dužinaToolStripMenuItem.Name = "dužinaToolStripMenuItem";
+            dužinaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.D;
+            dužinaToolStripMenuItem.Size = new Size(181, 22);
+            dužinaToolStripMenuItem.Text = "Dužina";
+            dužinaToolStripMenuItem.Click += dužinaToolStripMenuItem_Click;
             // 
             // masaToolStripMenuItem
             // 
-            this.masaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("masaToolStripMenuItem.Image")));
-            this.masaToolStripMenuItem.Name = "masaToolStripMenuItem";
-            this.masaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
-            this.masaToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.masaToolStripMenuItem.Text = "Masa";
-            this.masaToolStripMenuItem.Click += new System.EventHandler(this.masaToolStripMenuItem_Click);
+            masaToolStripMenuItem.Image = (Image)resources.GetObject("masaToolStripMenuItem.Image");
+            masaToolStripMenuItem.Name = "masaToolStripMenuItem";
+            masaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.M;
+            masaToolStripMenuItem.Size = new Size(181, 22);
+            masaToolStripMenuItem.Text = "Masa";
+            masaToolStripMenuItem.Click += masaToolStripMenuItem_Click;
             // 
             // ugaoToolStripMenuItem
             // 
-            this.ugaoToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ugaoToolStripMenuItem.Image")));
-            this.ugaoToolStripMenuItem.Name = "ugaoToolStripMenuItem";
-            this.ugaoToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.G)));
-            this.ugaoToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.ugaoToolStripMenuItem.Text = "Ugao";
-            this.ugaoToolStripMenuItem.Click += new System.EventHandler(this.ugaoToolStripMenuItem_Click);
+            ugaoToolStripMenuItem.Image = (Image)resources.GetObject("ugaoToolStripMenuItem.Image");
+            ugaoToolStripMenuItem.Name = "ugaoToolStripMenuItem";
+            ugaoToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.G;
+            ugaoToolStripMenuItem.Size = new Size(181, 22);
+            ugaoToolStripMenuItem.Text = "Ugao";
+            ugaoToolStripMenuItem.Click += ugaoToolStripMenuItem_Click;
             // 
             // temperaturaToolStripMenuItem
             // 
-            this.temperaturaToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("temperaturaToolStripMenuItem.Image")));
-            this.temperaturaToolStripMenuItem.Name = "temperaturaToolStripMenuItem";
-            this.temperaturaToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.R)));
-            this.temperaturaToolStripMenuItem.Size = new System.Drawing.Size(181, 22);
-            this.temperaturaToolStripMenuItem.Text = "Temperatura";
-            this.temperaturaToolStripMenuItem.Click += new System.EventHandler(this.temperaturaToolStripMenuItem_Click);
+            temperaturaToolStripMenuItem.Image = (Image)resources.GetObject("temperaturaToolStripMenuItem.Image");
+            temperaturaToolStripMenuItem.Name = "temperaturaToolStripMenuItem";
+            temperaturaToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.R;
+            temperaturaToolStripMenuItem.Size = new Size(181, 22);
+            temperaturaToolStripMenuItem.Text = "Temperatura";
+            temperaturaToolStripMenuItem.Click += temperaturaToolStripMenuItem_Click;
             // 
             // ostaloToolStripMenuItem
             // 
-            this.ostaloToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kompleksniBrojToolStripMenuItem,
-            this.logičkeOperacijeToolStripMenuItem});
-            this.ostaloToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("ostaloToolStripMenuItem.Image")));
-            this.ostaloToolStripMenuItem.Name = "ostaloToolStripMenuItem";
-            this.ostaloToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
-            this.ostaloToolStripMenuItem.Text = "Ostalo";
+            ostaloToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { kompleksniBrojToolStripMenuItem, logičkeOperacijeToolStripMenuItem });
+            ostaloToolStripMenuItem.Image = (Image)resources.GetObject("ostaloToolStripMenuItem.Image");
+            ostaloToolStripMenuItem.Name = "ostaloToolStripMenuItem";
+            ostaloToolStripMenuItem.Size = new Size(186, 22);
+            ostaloToolStripMenuItem.Text = "Ostalo";
             // 
             // kompleksniBrojToolStripMenuItem
             // 
-            this.kompleksniBrojToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("kompleksniBrojToolStripMenuItem.Image")));
-            this.kompleksniBrojToolStripMenuItem.Name = "kompleksniBrojToolStripMenuItem";
-            this.kompleksniBrojToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.B)));
-            this.kompleksniBrojToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.kompleksniBrojToolStripMenuItem.Text = "Kompleksni broj";
-            this.kompleksniBrojToolStripMenuItem.Click += new System.EventHandler(this.kompleksniBrojToolStripMenuItem_Click);
+            kompleksniBrojToolStripMenuItem.Image = (Image)resources.GetObject("kompleksniBrojToolStripMenuItem.Image");
+            kompleksniBrojToolStripMenuItem.Name = "kompleksniBrojToolStripMenuItem";
+            kompleksniBrojToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.B;
+            kompleksniBrojToolStripMenuItem.Size = new Size(206, 22);
+            kompleksniBrojToolStripMenuItem.Text = "Kompleksni broj";
+            kompleksniBrojToolStripMenuItem.Click += kompleksniBrojToolStripMenuItem_Click;
             // 
             // logičkeOperacijeToolStripMenuItem
             // 
-            this.logičkeOperacijeToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("logičkeOperacijeToolStripMenuItem.Image")));
-            this.logičkeOperacijeToolStripMenuItem.Name = "logičkeOperacijeToolStripMenuItem";
-            this.logičkeOperacijeToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.L)));
-            this.logičkeOperacijeToolStripMenuItem.Size = new System.Drawing.Size(206, 22);
-            this.logičkeOperacijeToolStripMenuItem.Text = "Logičke operacije";
-            this.logičkeOperacijeToolStripMenuItem.Click += new System.EventHandler(this.logičkeOperacijeToolStripMenuItem_Click);
+            logičkeOperacijeToolStripMenuItem.Image = (Image)resources.GetObject("logičkeOperacijeToolStripMenuItem.Image");
+            logičkeOperacijeToolStripMenuItem.Name = "logičkeOperacijeToolStripMenuItem";
+            logičkeOperacijeToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.L;
+            logičkeOperacijeToolStripMenuItem.Size = new Size(206, 22);
+            logičkeOperacijeToolStripMenuItem.Text = "Logičke operacije";
+            logičkeOperacijeToolStripMenuItem.Click += logičkeOperacijeToolStripMenuItem_Click;
             // 
             // fajlToolStripMenuItem
             // 
-            this.fajlToolStripMenuItem.BackColor = System.Drawing.Color.Silver;
-            this.fajlToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.otvoriFajlToolStripMenuItem,
-            this.sačuvajIstorijuToolStripMenuItem,
-            this.očistiFajlToolStripMenuItem});
-            this.fajlToolStripMenuItem.Name = "fajlToolStripMenuItem";
-            this.fajlToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
-            this.fajlToolStripMenuItem.Text = "Fajl";
+            fajlToolStripMenuItem.BackColor = Color.Silver;
+            fajlToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { otvoriFajlToolStripMenuItem, sačuvajIstorijuToolStripMenuItem, očistiFajlToolStripMenuItem });
+            fajlToolStripMenuItem.Name = "fajlToolStripMenuItem";
+            fajlToolStripMenuItem.Size = new Size(37, 20);
+            fajlToolStripMenuItem.Text = "Fajl";
             // 
             // otvoriFajlToolStripMenuItem
             // 
-            this.otvoriFajlToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("otvoriFajlToolStripMenuItem.Image")));
-            this.otvoriFajlToolStripMenuItem.Name = "otvoriFajlToolStripMenuItem";
-            this.otvoriFajlToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.otvoriFajlToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.otvoriFajlToolStripMenuItem.Text = "Otvori fajl";
-            this.otvoriFajlToolStripMenuItem.Click += new System.EventHandler(this.otvoriFajlToolStripMenuItem_Click);
+            otvoriFajlToolStripMenuItem.Image = (Image)resources.GetObject("otvoriFajlToolStripMenuItem.Image");
+            otvoriFajlToolStripMenuItem.Name = "otvoriFajlToolStripMenuItem";
+            otvoriFajlToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.O;
+            otvoriFajlToolStripMenuItem.Size = new Size(193, 22);
+            otvoriFajlToolStripMenuItem.Text = "Otvori fajl";
+            otvoriFajlToolStripMenuItem.Click += otvoriFajlToolStripMenuItem_Click;
             // 
             // sačuvajIstorijuToolStripMenuItem
             // 
-            this.sačuvajIstorijuToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("sačuvajIstorijuToolStripMenuItem.Image")));
-            this.sačuvajIstorijuToolStripMenuItem.Name = "sačuvajIstorijuToolStripMenuItem";
-            this.sačuvajIstorijuToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.sačuvajIstorijuToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.sačuvajIstorijuToolStripMenuItem.Text = "Sačuvaj istoriju";
-            this.sačuvajIstorijuToolStripMenuItem.Click += new System.EventHandler(this.sačuvajIstorijuToolStripMenuItem_Click);
+            sačuvajIstorijuToolStripMenuItem.Image = (Image)resources.GetObject("sačuvajIstorijuToolStripMenuItem.Image");
+            sačuvajIstorijuToolStripMenuItem.Name = "sačuvajIstorijuToolStripMenuItem";
+            sačuvajIstorijuToolStripMenuItem.ShortcutKeys = Keys.Control | Keys.S;
+            sačuvajIstorijuToolStripMenuItem.Size = new Size(193, 22);
+            sačuvajIstorijuToolStripMenuItem.Text = "Sačuvaj istoriju";
+            sačuvajIstorijuToolStripMenuItem.Click += sačuvajIstorijuToolStripMenuItem_Click;
             // 
             // očistiFajlToolStripMenuItem
             // 
-            this.očistiFajlToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("očistiFajlToolStripMenuItem.Image")));
-            this.očistiFajlToolStripMenuItem.Name = "očistiFajlToolStripMenuItem";
-            this.očistiFajlToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.očistiFajlToolStripMenuItem.Text = "Očisti fajl";
-            this.očistiFajlToolStripMenuItem.Click += new System.EventHandler(this.očistiFajlToolStripMenuItem_Click);
+            očistiFajlToolStripMenuItem.Image = (Image)resources.GetObject("očistiFajlToolStripMenuItem.Image");
+            očistiFajlToolStripMenuItem.Name = "očistiFajlToolStripMenuItem";
+            očistiFajlToolStripMenuItem.Size = new Size(193, 22);
+            očistiFajlToolStripMenuItem.Text = "Očisti fajl";
+            očistiFajlToolStripMenuItem.Click += očistiFajlToolStripMenuItem_Click;
             // 
             // toolTip
             // 
-            this.toolTip.IsBalloon = true;
+            toolTip.IsBalloon = true;
             // 
             // buttonacist
             // 
-            this.buttonacist.BackColor = System.Drawing.Color.White;
-            this.buttonacist.Location = new System.Drawing.Point(6, 253);
-            this.buttonacist.Name = "buttonacist";
-            this.buttonacist.Size = new System.Drawing.Size(184, 23);
-            this.buttonacist.TabIndex = 59;
-            this.buttonacist.Text = "AC";
-            this.toolTip.SetToolTip(this.buttonacist, "Čisti istoriju");
-            this.buttonacist.UseVisualStyleBackColor = false;
-            this.buttonacist.Click += new System.EventHandler(this.button10_Click);
+            buttonacist.BackColor = Color.White;
+            buttonacist.Location = new Point(6, 253);
+            buttonacist.Name = "buttonacist";
+            buttonacist.Size = new Size(184, 23);
+            buttonacist.TabIndex = 59;
+            buttonacist.Text = "AC";
+            toolTip.SetToolTip(buttonacist, "Čisti istoriju");
+            buttonacist.UseVisualStyleBackColor = false;
+            buttonacist.Click += button10_Click;
             // 
             // richTextBoxIST
             // 
-            this.richTextBoxIST.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.richTextBoxIST.Location = new System.Drawing.Point(6, 22);
-            this.richTextBoxIST.Name = "richTextBoxIST";
-            this.richTextBoxIST.ReadOnly = true;
-            this.richTextBoxIST.Size = new System.Drawing.Size(184, 225);
-            this.richTextBoxIST.TabIndex = 57;
-            this.richTextBoxIST.Text = "";
-            this.toolTip.SetToolTip(this.richTextBoxIST, "Prikazuje sve operacije izvršene nakon pokretanja aplikacije ili čišćenja istorij" +
-        "e");
-            this.richTextBoxIST.WordWrap = false;
+            richTextBoxIST.BackColor = Color.FromArgb(192, 255, 255);
+            richTextBoxIST.Location = new Point(6, 22);
+            richTextBoxIST.Name = "richTextBoxIST";
+            richTextBoxIST.ReadOnly = true;
+            richTextBoxIST.Size = new Size(184, 225);
+            richTextBoxIST.TabIndex = 57;
+            richTextBoxIST.Text = "";
+            toolTip.SetToolTip(richTextBoxIST, "Prikazuje sve operacije izvršene nakon pokretanja aplikacije ili čišćenja istorije");
+            richTextBoxIST.WordWrap = false;
             // 
             // buttonplus
             // 
-            this.buttonplus.BackColor = System.Drawing.Color.White;
-            this.buttonplus.Location = new System.Drawing.Point(143, 26);
-            this.buttonplus.Name = "buttonplus";
-            this.buttonplus.Size = new System.Drawing.Size(35, 23);
-            this.buttonplus.TabIndex = 15;
-            this.buttonplus.Text = "+";
-            this.toolTip.SetToolTip(this.buttonplus, "Sabira prvi uneti broj sa drugim unetim brojem");
-            this.buttonplus.UseVisualStyleBackColor = false;
-            this.buttonplus.Click += new System.EventHandler(this.buttonplus_Click);
+            buttonplus.BackColor = Color.White;
+            buttonplus.Location = new Point(143, 26);
+            buttonplus.Name = "buttonplus";
+            buttonplus.Size = new Size(35, 23);
+            buttonplus.TabIndex = 15;
+            buttonplus.Text = "+";
+            toolTip.SetToolTip(buttonplus, "Sabira prvi uneti broj sa drugim unetim brojem");
+            buttonplus.UseVisualStyleBackColor = false;
+            buttonplus.Click += buttonplus_Click;
             // 
             // buttonlogx
             // 
-            this.buttonlogx.BackColor = System.Drawing.Color.White;
-            this.buttonlogx.Location = new System.Drawing.Point(229, 175);
-            this.buttonlogx.Name = "buttonlogx";
-            this.buttonlogx.Size = new System.Drawing.Size(90, 23);
-            this.buttonlogx.TabIndex = 39;
-            this.buttonlogx.Text = "log(n)";
-            this.toolTip.SetToolTip(this.buttonlogx, "Od unetog broja računa logaritam proizvoljne baze");
-            this.buttonlogx.UseVisualStyleBackColor = false;
-            this.buttonlogx.Click += new System.EventHandler(this.buttonlogx_Click);
+            buttonlogx.BackColor = Color.White;
+            buttonlogx.Location = new Point(229, 175);
+            buttonlogx.Name = "buttonlogx";
+            buttonlogx.Size = new Size(90, 23);
+            buttonlogx.TabIndex = 39;
+            buttonlogx.Text = "log(n)";
+            toolTip.SetToolTip(buttonlogx, "Od unetog broja računa logaritam proizvoljne baze");
+            buttonlogx.UseVisualStyleBackColor = false;
+            buttonlogx.Click += buttonlogx_Click;
             // 
             // buttonmminus
             // 
-            this.buttonmminus.BackColor = System.Drawing.Color.White;
-            this.buttonmminus.Location = new System.Drawing.Point(186, 86);
-            this.buttonmminus.Name = "buttonmminus";
-            this.buttonmminus.Size = new System.Drawing.Size(35, 23);
-            this.buttonmminus.TabIndex = 57;
-            this.buttonmminus.Text = "M-";
-            this.toolTip.SetToolTip(this.buttonmminus, "Broju u memoriji oduzima broj u kutiji");
-            this.buttonmminus.UseVisualStyleBackColor = false;
-            this.buttonmminus.Click += new System.EventHandler(this.buttonmminus_Click);
+            buttonmminus.BackColor = Color.White;
+            buttonmminus.Location = new Point(186, 86);
+            buttonmminus.Name = "buttonmminus";
+            buttonmminus.Size = new Size(35, 23);
+            buttonmminus.TabIndex = 57;
+            buttonmminus.Text = "M-";
+            toolTip.SetToolTip(buttonmminus, "Broju u memoriji oduzima broj u kutiji");
+            buttonmminus.UseVisualStyleBackColor = false;
+            buttonmminus.Click += buttonmminus_Click;
             // 
             // button4
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(14, 86);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(35, 23);
-            this.button4.TabIndex = 6;
-            this.button4.Text = "4";
-            this.toolTip.SetToolTip(this.button4, "Unosi broj 4");
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            button4.BackColor = Color.White;
+            button4.Location = new Point(14, 86);
+            button4.Name = "button4";
+            button4.Size = new Size(35, 23);
+            button4.TabIndex = 6;
+            button4.Text = "4";
+            toolTip.SetToolTip(button4, "Unosi broj 4");
+            button4.UseVisualStyleBackColor = false;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(100, 116);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(35, 23);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "3";
-            this.toolTip.SetToolTip(this.button3, "Unosi broj 3");
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            button3.BackColor = Color.White;
+            button3.Location = new Point(100, 116);
+            button3.Name = "button3";
+            button3.Size = new Size(35, 23);
+            button3.TabIndex = 3;
+            button3.Text = "3";
+            toolTip.SetToolTip(button3, "Unosi broj 3");
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
             // 
             // buttonasin
             // 
-            this.buttonasin.BackColor = System.Drawing.Color.White;
-            this.buttonasin.Location = new System.Drawing.Point(278, 50);
-            this.buttonasin.Name = "buttonasin";
-            this.buttonasin.Size = new System.Drawing.Size(41, 35);
-            this.buttonasin.TabIndex = 33;
-            this.buttonasin.Text = "asin";
-            this.toolTip.SetToolTip(this.buttonasin, "Računa arkus sinus unetog broja");
-            this.buttonasin.UseVisualStyleBackColor = false;
-            this.buttonasin.Click += new System.EventHandler(this.buttonasin_Click);
+            buttonasin.BackColor = Color.White;
+            buttonasin.Location = new Point(278, 50);
+            buttonasin.Name = "buttonasin";
+            buttonasin.Size = new Size(41, 35);
+            buttonasin.TabIndex = 33;
+            buttonasin.Text = "asin";
+            toolTip.SetToolTip(buttonasin, "Računa arkus sinus unetog broja");
+            buttonasin.UseVisualStyleBackColor = false;
+            buttonasin.Click += buttonasin_Click;
             // 
             // button0
             // 
-            this.button0.BackColor = System.Drawing.Color.White;
-            this.button0.Location = new System.Drawing.Point(57, 146);
-            this.button0.Name = "button0";
-            this.button0.Size = new System.Drawing.Size(35, 23);
-            this.button0.TabIndex = 10;
-            this.button0.Text = "0";
-            this.toolTip.SetToolTip(this.button0, "Unosi broj 0");
-            this.button0.UseVisualStyleBackColor = false;
-            this.button0.Click += new System.EventHandler(this.button0_Click);
+            button0.BackColor = Color.White;
+            button0.Location = new Point(57, 146);
+            button0.Name = "button0";
+            button0.Size = new Size(35, 23);
+            button0.TabIndex = 10;
+            button0.Text = "0";
+            toolTip.SetToolTip(button0, "Unosi broj 0");
+            button0.UseVisualStyleBackColor = false;
+            button0.Click += button0_Click;
             // 
             // buttonminus
             // 
-            this.buttonminus.BackColor = System.Drawing.Color.White;
-            this.buttonminus.Location = new System.Drawing.Point(143, 56);
-            this.buttonminus.Name = "buttonminus";
-            this.buttonminus.Size = new System.Drawing.Size(35, 23);
-            this.buttonminus.TabIndex = 14;
-            this.buttonminus.Text = "-";
-            this.toolTip.SetToolTip(this.buttonminus, "Oduzima prvi uneti broj sa drugim unetim brojem");
-            this.buttonminus.UseVisualStyleBackColor = false;
-            this.buttonminus.Click += new System.EventHandler(this.buttonminus_Click);
+            buttonminus.BackColor = Color.White;
+            buttonminus.Location = new Point(143, 56);
+            buttonminus.Name = "buttonminus";
+            buttonminus.Size = new Size(35, 23);
+            buttonminus.TabIndex = 14;
+            buttonminus.Text = "-";
+            toolTip.SetToolTip(buttonminus, "Oduzima prvi uneti broj sa drugim unetim brojem");
+            buttonminus.UseVisualStyleBackColor = false;
+            buttonminus.Click += buttonminus_Click;
             // 
             // buttonpodeljeno
             // 
-            this.buttonpodeljeno.BackColor = System.Drawing.Color.White;
-            this.buttonpodeljeno.Location = new System.Drawing.Point(143, 116);
-            this.buttonpodeljeno.Name = "buttonpodeljeno";
-            this.buttonpodeljeno.Size = new System.Drawing.Size(35, 23);
-            this.buttonpodeljeno.TabIndex = 16;
-            this.buttonpodeljeno.Text = "/";
-            this.toolTip.SetToolTip(this.buttonpodeljeno, "Deli prvi uneti broj sa drugim unetim brojem");
-            this.buttonpodeljeno.UseVisualStyleBackColor = false;
-            this.buttonpodeljeno.Click += new System.EventHandler(this.buttonpodeljeno_Click);
+            buttonpodeljeno.BackColor = Color.White;
+            buttonpodeljeno.Location = new Point(143, 116);
+            buttonpodeljeno.Name = "buttonpodeljeno";
+            buttonpodeljeno.Size = new Size(35, 23);
+            buttonpodeljeno.TabIndex = 16;
+            buttonpodeljeno.Text = "/";
+            toolTip.SetToolTip(buttonpodeljeno, "Deli prvi uneti broj sa drugim unetim brojem");
+            buttonpodeljeno.UseVisualStyleBackColor = false;
+            buttonpodeljeno.Click += buttonpodeljeno_Click;
             // 
             // buttonacos
             // 
-            this.buttonacos.BackColor = System.Drawing.Color.White;
-            this.buttonacos.Location = new System.Drawing.Point(278, 92);
-            this.buttonacos.Name = "buttonacos";
-            this.buttonacos.Size = new System.Drawing.Size(41, 35);
-            this.buttonacos.TabIndex = 34;
-            this.buttonacos.Text = "acos";
-            this.toolTip.SetToolTip(this.buttonacos, "Računa arkus kosinus unetog broja");
-            this.buttonacos.UseVisualStyleBackColor = false;
-            this.buttonacos.Click += new System.EventHandler(this.buttonacos_Click);
+            buttonacos.BackColor = Color.White;
+            buttonacos.Location = new Point(278, 92);
+            buttonacos.Name = "buttonacos";
+            buttonacos.Size = new Size(41, 35);
+            buttonacos.TabIndex = 34;
+            buttonacos.Text = "acos";
+            toolTip.SetToolTip(buttonacos, "Računa arkus kosinus unetog broja");
+            buttonacos.UseVisualStyleBackColor = false;
+            buttonacos.Click += buttonacos_Click;
             // 
             // buttonmplus
             // 
-            this.buttonmplus.BackColor = System.Drawing.Color.White;
-            this.buttonmplus.Location = new System.Drawing.Point(186, 56);
-            this.buttonmplus.Name = "buttonmplus";
-            this.buttonmplus.Size = new System.Drawing.Size(35, 23);
-            this.buttonmplus.TabIndex = 58;
-            this.buttonmplus.Text = "M+";
-            this.toolTip.SetToolTip(this.buttonmplus, "Broju u memoriji dodaje broj u kutiji");
-            this.buttonmplus.UseVisualStyleBackColor = false;
-            this.buttonmplus.Click += new System.EventHandler(this.buttonmplus_Click);
+            buttonmplus.BackColor = Color.White;
+            buttonmplus.Location = new Point(186, 56);
+            buttonmplus.Name = "buttonmplus";
+            buttonmplus.Size = new Size(35, 23);
+            buttonmplus.TabIndex = 58;
+            buttonmplus.Text = "M+";
+            toolTip.SetToolTip(buttonmplus, "Broju u memoriji dodaje broj u kutiji");
+            buttonmplus.UseVisualStyleBackColor = false;
+            buttonmplus.Click += buttonmplus_Click;
             // 
             // buttonm
             // 
-            this.buttonm.BackColor = System.Drawing.Color.White;
-            this.buttonm.Location = new System.Drawing.Point(186, 26);
-            this.buttonm.Name = "buttonm";
-            this.buttonm.Size = new System.Drawing.Size(35, 23);
-            this.buttonm.TabIndex = 18;
-            this.buttonm.Text = "MS";
-            this.toolTip.SetToolTip(this.buttonm, "Stavlja broj u memoriju");
-            this.buttonm.UseVisualStyleBackColor = false;
-            this.buttonm.Click += new System.EventHandler(this.buttonm_Click);
+            buttonm.BackColor = Color.White;
+            buttonm.Location = new Point(186, 26);
+            buttonm.Name = "buttonm";
+            buttonm.Size = new Size(35, 23);
+            buttonm.TabIndex = 18;
+            buttonm.Text = "MS";
+            toolTip.SetToolTip(buttonm, "Stavlja broj u memoriju");
+            buttonm.UseVisualStyleBackColor = false;
+            buttonm.Click += buttonm_Click;
             // 
             // buttone
             // 
-            this.buttone.BackColor = System.Drawing.Color.White;
-            this.buttone.Location = new System.Drawing.Point(57, 175);
-            this.buttone.Name = "buttone";
-            this.buttone.Size = new System.Drawing.Size(35, 23);
-            this.buttone.TabIndex = 37;
-            this.buttone.Text = "e";
-            this.toolTip.SetToolTip(this.buttone, "Unosi broj e");
-            this.buttone.UseVisualStyleBackColor = false;
-            this.buttone.Click += new System.EventHandler(this.buttone_Click);
+            buttone.BackColor = Color.White;
+            buttone.Location = new Point(57, 175);
+            buttone.Name = "buttone";
+            buttone.Size = new Size(35, 23);
+            buttone.TabIndex = 37;
+            buttone.Text = "e";
+            toolTip.SetToolTip(buttone, "Unosi broj e");
+            buttone.UseVisualStyleBackColor = false;
+            buttone.Click += buttone_Click;
             // 
             // buttontan
             // 
-            this.buttontan.BackColor = System.Drawing.Color.White;
-            this.buttontan.Location = new System.Drawing.Point(229, 134);
-            this.buttontan.Name = "buttontan";
-            this.buttontan.Size = new System.Drawing.Size(41, 35);
-            this.buttontan.TabIndex = 32;
-            this.buttontan.Text = "tan";
-            this.toolTip.SetToolTip(this.buttontan, "Računa tangens unetog broja");
-            this.buttontan.UseVisualStyleBackColor = false;
-            this.buttontan.Click += new System.EventHandler(this.buttontan_Click);
+            buttontan.BackColor = Color.White;
+            buttontan.Location = new Point(229, 134);
+            buttontan.Name = "buttontan";
+            buttontan.Size = new Size(41, 35);
+            buttontan.TabIndex = 32;
+            buttontan.Text = "tan";
+            toolTip.SetToolTip(buttontan, "Računa tangens unetog broja");
+            buttontan.UseVisualStyleBackColor = false;
+            buttontan.Click += buttontan_Click;
             // 
             // button8
             // 
-            this.button8.BackColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(57, 56);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(35, 23);
-            this.button8.TabIndex = 8;
-            this.button8.Text = "8";
-            this.toolTip.SetToolTip(this.button8, "Unosi broj 8");
-            this.button8.UseVisualStyleBackColor = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            button8.BackColor = Color.White;
+            button8.Location = new Point(57, 56);
+            button8.Name = "button8";
+            button8.Size = new Size(35, 23);
+            button8.TabIndex = 8;
+            button8.Text = "8";
+            toolTip.SetToolTip(button8, "Unosi broj 8");
+            button8.UseVisualStyleBackColor = false;
+            button8.Click += button8_Click;
             // 
             // buttonputa
             // 
-            this.buttonputa.BackColor = System.Drawing.Color.White;
-            this.buttonputa.Location = new System.Drawing.Point(143, 86);
-            this.buttonputa.Name = "buttonputa";
-            this.buttonputa.Size = new System.Drawing.Size(35, 23);
-            this.buttonputa.TabIndex = 13;
-            this.buttonputa.Text = "*";
-            this.toolTip.SetToolTip(this.buttonputa, "Množi prvi uneti broj sa drugim unetim brojem");
-            this.buttonputa.UseVisualStyleBackColor = false;
-            this.buttonputa.Click += new System.EventHandler(this.buttonputa_Click);
+            buttonputa.BackColor = Color.White;
+            buttonputa.Location = new Point(143, 86);
+            buttonputa.Name = "buttonputa";
+            buttonputa.Size = new Size(35, 23);
+            buttonputa.TabIndex = 13;
+            buttonputa.Text = "*";
+            toolTip.SetToolTip(buttonputa, "Množi prvi uneti broj sa drugim unetim brojem");
+            buttonputa.UseVisualStyleBackColor = false;
+            buttonputa.Click += buttonputa_Click;
             // 
             // buttonpi
             // 
-            this.buttonpi.BackColor = System.Drawing.Color.White;
-            this.buttonpi.Location = new System.Drawing.Point(14, 175);
-            this.buttonpi.Name = "buttonpi";
-            this.buttonpi.Size = new System.Drawing.Size(35, 23);
-            this.buttonpi.TabIndex = 36;
-            this.buttonpi.Text = "π";
-            this.toolTip.SetToolTip(this.buttonpi, "Unosi broj π");
-            this.buttonpi.UseVisualStyleBackColor = false;
-            this.buttonpi.Click += new System.EventHandler(this.buttonpi_Click);
+            buttonpi.BackColor = Color.White;
+            buttonpi.Location = new Point(14, 175);
+            buttonpi.Name = "buttonpi";
+            buttonpi.Size = new Size(35, 23);
+            buttonpi.TabIndex = 36;
+            buttonpi.Text = "π";
+            toolTip.SetToolTip(buttonpi, "Unosi broj π");
+            buttonpi.UseVisualStyleBackColor = false;
+            buttonpi.Click += buttonpi_Click;
             // 
             // buttonatan
             // 
-            this.buttonatan.BackColor = System.Drawing.Color.White;
-            this.buttonatan.Location = new System.Drawing.Point(278, 134);
-            this.buttonatan.Name = "buttonatan";
-            this.buttonatan.Size = new System.Drawing.Size(41, 35);
-            this.buttonatan.TabIndex = 35;
-            this.buttonatan.Text = "atan";
-            this.toolTip.SetToolTip(this.buttonatan, "Računa arkus tangens unetog broja");
-            this.buttonatan.UseVisualStyleBackColor = false;
-            this.buttonatan.Click += new System.EventHandler(this.buttonatan_Click);
+            buttonatan.BackColor = Color.White;
+            buttonatan.Location = new Point(278, 134);
+            buttonatan.Name = "buttonatan";
+            buttonatan.Size = new Size(41, 35);
+            buttonatan.TabIndex = 35;
+            buttonatan.Text = "atan";
+            toolTip.SetToolTip(buttonatan, "Računa arkus tangens unetog broja");
+            buttonatan.UseVisualStyleBackColor = false;
+            buttonatan.Click += buttonatan_Click;
             // 
             // button9
             // 
-            this.button9.BackColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(100, 56);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(35, 23);
-            this.button9.TabIndex = 7;
-            this.button9.Text = "9";
-            this.toolTip.SetToolTip(this.button9, "Unosi broj 9");
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            button9.BackColor = Color.White;
+            button9.Location = new Point(100, 56);
+            button9.Name = "button9";
+            button9.Size = new Size(35, 23);
+            button9.TabIndex = 7;
+            button9.Text = "9";
+            toolTip.SetToolTip(button9, "Unosi broj 9");
+            button9.UseVisualStyleBackColor = false;
+            button9.Click += button9_Click;
             // 
             // button6
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(100, 86);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(35, 23);
-            this.button6.TabIndex = 4;
-            this.button6.Text = "6";
-            this.toolTip.SetToolTip(this.button6, "Unosi broj 6");
-            this.button6.UseVisualStyleBackColor = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            button6.BackColor = Color.White;
+            button6.Location = new Point(100, 86);
+            button6.Name = "button6";
+            button6.Size = new Size(35, 23);
+            button6.TabIndex = 4;
+            button6.Text = "6";
+            toolTip.SetToolTip(button6, "Unosi broj 6");
+            button6.UseVisualStyleBackColor = false;
+            button6.Click += button6_Click;
             // 
             // buttonprocenat
             // 
-            this.buttonprocenat.BackColor = System.Drawing.Color.White;
-            this.buttonprocenat.Location = new System.Drawing.Point(143, 146);
-            this.buttonprocenat.Name = "buttonprocenat";
-            this.buttonprocenat.Size = new System.Drawing.Size(35, 23);
-            this.buttonprocenat.TabIndex = 43;
-            this.buttonprocenat.Text = "%";
-            this.toolTip.SetToolTip(this.buttonprocenat, "Računa ostatak pri deljenu prvog broja sa drugim");
-            this.buttonprocenat.UseVisualStyleBackColor = false;
-            this.buttonprocenat.Click += new System.EventHandler(this.buttonprocenat_Click);
+            buttonprocenat.BackColor = Color.White;
+            buttonprocenat.Location = new Point(143, 146);
+            buttonprocenat.Name = "buttonprocenat";
+            buttonprocenat.Size = new Size(35, 23);
+            buttonprocenat.TabIndex = 43;
+            buttonprocenat.Text = "%";
+            toolTip.SetToolTip(buttonprocenat, "Računa ostatak pri deljenu prvog broja sa drugim");
+            buttonprocenat.UseVisualStyleBackColor = false;
+            buttonprocenat.Click += buttonprocenat_Click;
             // 
             // buttoncos
             // 
-            this.buttoncos.BackColor = System.Drawing.Color.White;
-            this.buttoncos.Location = new System.Drawing.Point(229, 92);
-            this.buttoncos.Name = "buttoncos";
-            this.buttoncos.Size = new System.Drawing.Size(41, 35);
-            this.buttoncos.TabIndex = 31;
-            this.buttoncos.Text = "cos";
-            this.toolTip.SetToolTip(this.buttoncos, "Računa kosinus unetog broja");
-            this.buttoncos.UseVisualStyleBackColor = false;
-            this.buttoncos.Click += new System.EventHandler(this.buttoncos_Click);
+            buttoncos.BackColor = Color.White;
+            buttoncos.Location = new Point(229, 92);
+            buttoncos.Name = "buttoncos";
+            buttoncos.Size = new Size(41, 35);
+            buttoncos.TabIndex = 31;
+            buttoncos.Text = "cos";
+            toolTip.SetToolTip(buttoncos, "Računa kosinus unetog broja");
+            buttoncos.UseVisualStyleBackColor = false;
+            buttoncos.Click += buttoncos_Click;
             // 
             // buttoncm
             // 
-            this.buttoncm.BackColor = System.Drawing.Color.White;
-            this.buttoncm.Location = new System.Drawing.Point(186, 146);
-            this.buttoncm.Name = "buttoncm";
-            this.buttoncm.Size = new System.Drawing.Size(35, 23);
-            this.buttoncm.TabIndex = 20;
-            this.buttoncm.Text = "CM";
-            this.toolTip.SetToolTip(this.buttoncm, "Čisti memoriju");
-            this.buttoncm.UseVisualStyleBackColor = false;
-            this.buttoncm.Click += new System.EventHandler(this.buttoncm_Click);
+            buttoncm.BackColor = Color.White;
+            buttoncm.Location = new Point(186, 146);
+            buttoncm.Name = "buttoncm";
+            buttoncm.Size = new Size(35, 23);
+            buttoncm.TabIndex = 20;
+            buttoncm.Text = "CM";
+            toolTip.SetToolTip(buttoncm, "Čisti memoriju");
+            buttoncm.UseVisualStyleBackColor = false;
+            buttoncm.Click += buttoncm_Click;
             // 
             // buttonkoren
             // 
-            this.buttonkoren.BackColor = System.Drawing.Color.White;
-            this.buttonkoren.Location = new System.Drawing.Point(57, 26);
-            this.buttonkoren.Name = "buttonkoren";
-            this.buttonkoren.Size = new System.Drawing.Size(35, 23);
-            this.buttonkoren.TabIndex = 22;
-            this.buttonkoren.Text = "√n";
-            this.toolTip.SetToolTip(this.buttonkoren, "Računa koren proizvoljnog stepena unetog broja");
-            this.buttonkoren.UseVisualStyleBackColor = false;
-            this.buttonkoren.Click += new System.EventHandler(this.buttonkoren_Click);
+            buttonkoren.BackColor = Color.White;
+            buttonkoren.Location = new Point(57, 26);
+            buttonkoren.Name = "buttonkoren";
+            buttonkoren.Size = new Size(35, 23);
+            buttonkoren.TabIndex = 22;
+            buttonkoren.Text = "√n";
+            toolTip.SetToolTip(buttonkoren, "Računa koren proizvoljnog stepena unetog broja");
+            buttonkoren.UseVisualStyleBackColor = false;
+            buttonkoren.Click += buttonkoren_Click;
             // 
             // buttonrnd
             // 
-            this.buttonrnd.BackColor = System.Drawing.Color.White;
-            this.buttonrnd.Location = new System.Drawing.Point(100, 175);
-            this.buttonrnd.Name = "buttonrnd";
-            this.buttonrnd.Size = new System.Drawing.Size(35, 23);
-            this.buttonrnd.TabIndex = 38;
-            this.buttonrnd.Text = "Ran";
-            this.toolTip.SetToolTip(this.buttonrnd, "Ispisuje nasumičan broj izmedju unete donje i gornje granice");
-            this.buttonrnd.UseVisualStyleBackColor = false;
-            this.buttonrnd.Click += new System.EventHandler(this.buttonrnd_Click);
+            buttonrnd.BackColor = Color.White;
+            buttonrnd.Location = new Point(100, 175);
+            buttonrnd.Name = "buttonrnd";
+            buttonrnd.Size = new Size(35, 23);
+            buttonrnd.TabIndex = 38;
+            buttonrnd.Text = "Ran";
+            toolTip.SetToolTip(buttonrnd, "Ispisuje nasumičan broj izmedju unete donje i gornje granice");
+            buttonrnd.UseVisualStyleBackColor = false;
+            buttonrnd.Click += buttonrnd_Click;
             // 
             // buttonround
             // 
-            this.buttonround.BackColor = System.Drawing.Color.White;
-            this.buttonround.Location = new System.Drawing.Point(143, 175);
-            this.buttonround.Name = "buttonround";
-            this.buttonround.Size = new System.Drawing.Size(78, 23);
-            this.buttonround.TabIndex = 41;
-            this.buttonround.Text = "Round";
-            this.toolTip.SetToolTip(this.buttonround, "Zaokruzuje decimale jednog broja na uneti broj decimala");
-            this.buttonround.UseVisualStyleBackColor = false;
-            this.buttonround.Click += new System.EventHandler(this.buttonround_Click);
+            buttonround.BackColor = Color.White;
+            buttonround.Location = new Point(143, 175);
+            buttonround.Name = "buttonround";
+            buttonround.Size = new Size(78, 23);
+            buttonround.TabIndex = 41;
+            buttonround.Text = "Round";
+            toolTip.SetToolTip(buttonround, "Zaokruzuje decimale jednog broja na uneti broj decimala");
+            buttonround.UseVisualStyleBackColor = false;
+            buttonround.Click += buttonround_Click;
             // 
             // buttontacka
             // 
-            this.buttontacka.BackColor = System.Drawing.Color.White;
-            this.buttontacka.Location = new System.Drawing.Point(100, 146);
-            this.buttontacka.Name = "buttontacka";
-            this.buttontacka.Size = new System.Drawing.Size(35, 23);
-            this.buttontacka.TabIndex = 12;
-            this.buttontacka.Text = ",";
-            this.toolTip.SetToolTip(this.buttontacka, "Dodaje decimalnu tacku");
-            this.buttontacka.UseVisualStyleBackColor = false;
-            this.buttontacka.Click += new System.EventHandler(this.buttontacka_Click);
+            buttontacka.BackColor = Color.White;
+            buttontacka.Location = new Point(100, 146);
+            buttontacka.Name = "buttontacka";
+            buttontacka.Size = new Size(35, 23);
+            buttontacka.TabIndex = 12;
+            buttontacka.Text = ",";
+            toolTip.SetToolTip(buttontacka, "Dodaje decimalnu tacku");
+            buttontacka.UseVisualStyleBackColor = false;
+            buttontacka.Click += buttontacka_Click;
             // 
             // radioButtonDEG
             // 
-            this.radioButtonDEG.AutoSize = true;
-            this.radioButtonDEG.BackColor = System.Drawing.Color.Transparent;
-            this.radioButtonDEG.Checked = true;
-            this.radioButtonDEG.Location = new System.Drawing.Point(229, 25);
-            this.radioButtonDEG.Name = "radioButtonDEG";
-            this.radioButtonDEG.Size = new System.Drawing.Size(47, 19);
-            this.radioButtonDEG.TabIndex = 55;
-            this.radioButtonDEG.TabStop = true;
-            this.radioButtonDEG.Text = "DEG";
-            this.toolTip.SetToolTip(this.radioButtonDEG, "Režim stepena za trigonometriju");
-            this.radioButtonDEG.UseVisualStyleBackColor = false;
+            radioButtonDEG.AutoSize = true;
+            radioButtonDEG.BackColor = Color.Transparent;
+            radioButtonDEG.Checked = true;
+            radioButtonDEG.Location = new Point(229, 25);
+            radioButtonDEG.Name = "radioButtonDEG";
+            radioButtonDEG.Size = new Size(47, 19);
+            radioButtonDEG.TabIndex = 55;
+            radioButtonDEG.TabStop = true;
+            radioButtonDEG.Text = "DEG";
+            toolTip.SetToolTip(radioButtonDEG, "Režim stepena za trigonometriju");
+            radioButtonDEG.UseVisualStyleBackColor = false;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(14, 116);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(35, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "1";
-            this.toolTip.SetToolTip(this.button1, "Unosi broj 1");
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            button1.BackColor = Color.White;
+            button1.Location = new Point(14, 116);
+            button1.Name = "button1";
+            button1.Size = new Size(35, 23);
+            button1.TabIndex = 0;
+            button1.Text = "1";
+            toolTip.SetToolTip(button1, "Unosi broj 1");
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // button5
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(57, 86);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(35, 23);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "5";
-            this.toolTip.SetToolTip(this.button5, "Unosi broj 5");
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            button5.BackColor = Color.White;
+            button5.Location = new Point(57, 86);
+            button5.Name = "button5";
+            button5.Size = new Size(35, 23);
+            button5.TabIndex = 5;
+            button5.Text = "5";
+            toolTip.SetToolTip(button5, "Unosi broj 5");
+            button5.UseVisualStyleBackColor = false;
+            button5.Click += button5_Click;
             // 
             // button2
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(57, 116);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(35, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "2";
-            this.toolTip.SetToolTip(this.button2, "Unosi broj 2");
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            button2.BackColor = Color.White;
+            button2.Location = new Point(57, 116);
+            button2.Name = "button2";
+            button2.Size = new Size(35, 23);
+            button2.TabIndex = 2;
+            button2.Text = "2";
+            toolTip.SetToolTip(button2, "Unosi broj 2");
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // buttonsin
             // 
-            this.buttonsin.BackColor = System.Drawing.Color.White;
-            this.buttonsin.Location = new System.Drawing.Point(229, 50);
-            this.buttonsin.Name = "buttonsin";
-            this.buttonsin.Size = new System.Drawing.Size(41, 35);
-            this.buttonsin.TabIndex = 30;
-            this.buttonsin.Text = "sin";
-            this.toolTip.SetToolTip(this.buttonsin, "Računa sinus unetog broja");
-            this.buttonsin.UseVisualStyleBackColor = false;
-            this.buttonsin.Click += new System.EventHandler(this.buttonsin_Click);
+            buttonsin.BackColor = Color.White;
+            buttonsin.Location = new Point(229, 50);
+            buttonsin.Name = "buttonsin";
+            buttonsin.Size = new Size(41, 35);
+            buttonsin.TabIndex = 30;
+            buttonsin.Text = "sin";
+            toolTip.SetToolTip(buttonsin, "Računa sinus unetog broja");
+            buttonsin.UseVisualStyleBackColor = false;
+            buttonsin.Click += buttonsin_Click;
             // 
             // buttonfaktorijal
             // 
-            this.buttonfaktorijal.BackColor = System.Drawing.Color.White;
-            this.buttonfaktorijal.Location = new System.Drawing.Point(100, 26);
-            this.buttonfaktorijal.Name = "buttonfaktorijal";
-            this.buttonfaktorijal.Size = new System.Drawing.Size(35, 23);
-            this.buttonfaktorijal.TabIndex = 28;
-            this.buttonfaktorijal.Text = "n!";
-            this.toolTip.SetToolTip(this.buttonfaktorijal, "Računa faktorijal unetog broja");
-            this.buttonfaktorijal.UseVisualStyleBackColor = false;
-            this.buttonfaktorijal.Click += new System.EventHandler(this.buttonfaktorijal_Click);
+            buttonfaktorijal.BackColor = Color.White;
+            buttonfaktorijal.Location = new Point(100, 26);
+            buttonfaktorijal.Name = "buttonfaktorijal";
+            buttonfaktorijal.Size = new Size(35, 23);
+            buttonfaktorijal.TabIndex = 28;
+            buttonfaktorijal.Text = "n!";
+            toolTip.SetToolTip(buttonfaktorijal, "Računa faktorijal unetog broja");
+            buttonfaktorijal.UseVisualStyleBackColor = false;
+            buttonfaktorijal.Click += buttonfaktorijal_Click;
             // 
             // buttonstepen
             // 
-            this.buttonstepen.BackColor = System.Drawing.Color.White;
-            this.buttonstepen.Location = new System.Drawing.Point(14, 26);
-            this.buttonstepen.Name = "buttonstepen";
-            this.buttonstepen.Size = new System.Drawing.Size(35, 23);
-            this.buttonstepen.TabIndex = 21;
-            this.buttonstepen.Text = "xⁿ";
-            this.toolTip.SetToolTip(this.buttonstepen, "Uneti broj diže na uneti stepen");
-            this.buttonstepen.UseVisualStyleBackColor = false;
-            this.buttonstepen.Click += new System.EventHandler(this.buttonstepen_Click);
+            buttonstepen.BackColor = Color.White;
+            buttonstepen.Location = new Point(14, 26);
+            buttonstepen.Name = "buttonstepen";
+            buttonstepen.Size = new Size(35, 23);
+            buttonstepen.TabIndex = 21;
+            buttonstepen.Text = "xⁿ";
+            toolTip.SetToolTip(buttonstepen, "Uneti broj diže na uneti stepen");
+            buttonstepen.UseVisualStyleBackColor = false;
+            buttonstepen.Click += buttonstepen_Click;
             // 
             // buttonplusminus
             // 
-            this.buttonplusminus.BackColor = System.Drawing.Color.White;
-            this.buttonplusminus.Location = new System.Drawing.Point(14, 146);
-            this.buttonplusminus.Name = "buttonplusminus";
-            this.buttonplusminus.Size = new System.Drawing.Size(35, 23);
-            this.buttonplusminus.TabIndex = 11;
-            this.buttonplusminus.Text = "±n";
-            this.toolTip.SetToolTip(this.buttonplusminus, "Menja znak broja u kutiji");
-            this.buttonplusminus.UseVisualStyleBackColor = false;
-            this.buttonplusminus.Click += new System.EventHandler(this.buttonplusminus_Click);
+            buttonplusminus.BackColor = Color.White;
+            buttonplusminus.Location = new Point(14, 146);
+            buttonplusminus.Name = "buttonplusminus";
+            buttonplusminus.Size = new Size(35, 23);
+            buttonplusminus.TabIndex = 11;
+            buttonplusminus.Text = "±n";
+            toolTip.SetToolTip(buttonplusminus, "Menja znak broja u kutiji");
+            buttonplusminus.UseVisualStyleBackColor = false;
+            buttonplusminus.Click += buttonplusminus_Click;
             // 
             // radioButtonRAD
             // 
-            this.radioButtonRAD.AutoSize = true;
-            this.radioButtonRAD.BackColor = System.Drawing.Color.Transparent;
-            this.radioButtonRAD.Location = new System.Drawing.Point(278, 25);
-            this.radioButtonRAD.Name = "radioButtonRAD";
-            this.radioButtonRAD.Size = new System.Drawing.Size(48, 19);
-            this.radioButtonRAD.TabIndex = 56;
-            this.radioButtonRAD.Text = "RAD";
-            this.toolTip.SetToolTip(this.radioButtonRAD, "Režim radijana za trigonometriju");
-            this.radioButtonRAD.UseVisualStyleBackColor = false;
+            radioButtonRAD.AutoSize = true;
+            radioButtonRAD.BackColor = Color.Transparent;
+            radioButtonRAD.Location = new Point(278, 25);
+            radioButtonRAD.Name = "radioButtonRAD";
+            radioButtonRAD.Size = new Size(48, 19);
+            radioButtonRAD.TabIndex = 56;
+            radioButtonRAD.Text = "RAD";
+            toolTip.SetToolTip(radioButtonRAD, "Režim radijana za trigonometriju");
+            radioButtonRAD.UseVisualStyleBackColor = false;
             // 
             // buttonrm
             // 
-            this.buttonrm.BackColor = System.Drawing.Color.White;
-            this.buttonrm.Location = new System.Drawing.Point(186, 117);
-            this.buttonrm.Name = "buttonrm";
-            this.buttonrm.Size = new System.Drawing.Size(35, 23);
-            this.buttonrm.TabIndex = 17;
-            this.buttonrm.Text = "RM";
-            this.toolTip.SetToolTip(this.buttonrm, "Ispisuje broj unet u memoriju");
-            this.buttonrm.UseVisualStyleBackColor = false;
-            this.buttonrm.Click += new System.EventHandler(this.buttonrm_Click);
+            buttonrm.BackColor = Color.White;
+            buttonrm.Location = new Point(186, 117);
+            buttonrm.Name = "buttonrm";
+            buttonrm.Size = new Size(35, 23);
+            buttonrm.TabIndex = 17;
+            buttonrm.Text = "RM";
+            toolTip.SetToolTip(buttonrm, "Ispisuje broj unet u memoriju");
+            buttonrm.UseVisualStyleBackColor = false;
+            buttonrm.Click += buttonrm_Click;
             // 
             // button7
             // 
-            this.button7.BackColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(14, 56);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(35, 23);
-            this.button7.TabIndex = 9;
-            this.button7.Text = "7";
-            this.toolTip.SetToolTip(this.button7, "Unosi broj 7");
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            button7.BackColor = Color.White;
+            button7.Location = new Point(14, 56);
+            button7.Name = "button7";
+            button7.Size = new Size(35, 23);
+            button7.TabIndex = 9;
+            button7.Text = "7";
+            toolTip.SetToolTip(button7, "Unosi broj 7");
+            button7.UseVisualStyleBackColor = false;
+            button7.Click += button7_Click;
             // 
             // textBoxM
             // 
-            this.textBoxM.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.textBoxM.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxM.Location = new System.Drawing.Point(6, 21);
-            this.textBoxM.Name = "textBoxM";
-            this.textBoxM.ReadOnly = true;
-            this.textBoxM.Size = new System.Drawing.Size(184, 23);
-            this.textBoxM.TabIndex = 60;
-            this.textBoxM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.toolTip.SetToolTip(this.textBoxM, "Prikazuje broj u memoriji");
+            textBoxM.BackColor = Color.FromArgb(192, 255, 255);
+            textBoxM.BorderStyle = BorderStyle.FixedSingle;
+            textBoxM.Location = new Point(6, 21);
+            textBoxM.Name = "textBoxM";
+            textBoxM.ReadOnly = true;
+            textBoxM.Size = new Size(184, 23);
+            textBoxM.TabIndex = 60;
+            textBoxM.TextAlign = HorizontalAlignment.Center;
+            toolTip.SetToolTip(textBoxM, "Prikazuje broj u memoriji");
             // 
             // textBoxHEX
             // 
-            this.textBoxHEX.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.textBoxHEX.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxHEX.Location = new System.Drawing.Point(217, 80);
-            this.textBoxHEX.Name = "textBoxHEX";
-            this.textBoxHEX.ReadOnly = true;
-            this.textBoxHEX.Size = new System.Drawing.Size(101, 23);
-            this.textBoxHEX.TabIndex = 47;
-            this.textBoxHEX.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.toolTip.SetToolTip(this.textBoxHEX, "Prikazuje heksadecimalni oblik unetog broja nakon klika na \'Convert\'");
+            textBoxHEX.BackColor = Color.FromArgb(192, 255, 255);
+            textBoxHEX.BorderStyle = BorderStyle.FixedSingle;
+            textBoxHEX.Location = new Point(217, 80);
+            textBoxHEX.Name = "textBoxHEX";
+            textBoxHEX.ReadOnly = true;
+            textBoxHEX.Size = new Size(101, 23);
+            textBoxHEX.TabIndex = 47;
+            textBoxHEX.TextAlign = HorizontalAlignment.Center;
+            toolTip.SetToolTip(textBoxHEX, "Prikazuje heksadecimalni oblik unetog broja nakon klika na 'Convert'");
             // 
             // textBoxOCT
             // 
-            this.textBoxOCT.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.textBoxOCT.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxOCT.Location = new System.Drawing.Point(116, 80);
-            this.textBoxOCT.Name = "textBoxOCT";
-            this.textBoxOCT.ReadOnly = true;
-            this.textBoxOCT.Size = new System.Drawing.Size(101, 23);
-            this.textBoxOCT.TabIndex = 46;
-            this.textBoxOCT.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.toolTip.SetToolTip(this.textBoxOCT, "Prikazuje oktalni oblik unetog broja nakon klika na \'Convert\'");
+            textBoxOCT.BackColor = Color.FromArgb(192, 255, 255);
+            textBoxOCT.BorderStyle = BorderStyle.FixedSingle;
+            textBoxOCT.Location = new Point(116, 80);
+            textBoxOCT.Name = "textBoxOCT";
+            textBoxOCT.ReadOnly = true;
+            textBoxOCT.Size = new Size(101, 23);
+            textBoxOCT.TabIndex = 46;
+            textBoxOCT.TextAlign = HorizontalAlignment.Center;
+            toolTip.SetToolTip(textBoxOCT, "Prikazuje oktalni oblik unetog broja nakon klika na 'Convert'");
             // 
             // buttonconvert
             // 
-            this.buttonconvert.BackColor = System.Drawing.Color.White;
-            this.buttonconvert.Location = new System.Drawing.Point(244, 51);
-            this.buttonconvert.Name = "buttonconvert";
-            this.buttonconvert.Size = new System.Drawing.Size(75, 23);
-            this.buttonconvert.TabIndex = 51;
-            this.buttonconvert.Text = "Convert";
-            this.toolTip.SetToolTip(this.buttonconvert, "Pretvara broj iz kutije u binarne, oktalne i heksadecimalne brojne sisteme");
-            this.buttonconvert.UseVisualStyleBackColor = false;
-            this.buttonconvert.Click += new System.EventHandler(this.buttonconvert_Click);
+            buttonconvert.BackColor = Color.White;
+            buttonconvert.Location = new Point(244, 51);
+            buttonconvert.Name = "buttonconvert";
+            buttonconvert.Size = new Size(75, 23);
+            buttonconvert.TabIndex = 51;
+            buttonconvert.Text = "Convert";
+            toolTip.SetToolTip(buttonconvert, "Pretvara broj iz kutije u binarne, oktalne i heksadecimalne brojne sisteme");
+            buttonconvert.UseVisualStyleBackColor = false;
+            buttonconvert.Click += buttonconvert_Click;
             // 
             // textBoxBIN
             // 
-            this.textBoxBIN.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.textBoxBIN.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBoxBIN.Location = new System.Drawing.Point(15, 80);
-            this.textBoxBIN.Name = "textBoxBIN";
-            this.textBoxBIN.ReadOnly = true;
-            this.textBoxBIN.Size = new System.Drawing.Size(101, 23);
-            this.textBoxBIN.TabIndex = 45;
-            this.textBoxBIN.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.toolTip.SetToolTip(this.textBoxBIN, "Prikazuje binarni oblik unetog broja nakon klika na \'Convert\'");
+            textBoxBIN.BackColor = Color.FromArgb(192, 255, 255);
+            textBoxBIN.BorderStyle = BorderStyle.FixedSingle;
+            textBoxBIN.Location = new Point(15, 80);
+            textBoxBIN.Name = "textBoxBIN";
+            textBoxBIN.ReadOnly = true;
+            textBoxBIN.Size = new Size(101, 23);
+            textBoxBIN.TabIndex = 45;
+            textBoxBIN.TextAlign = HorizontalAlignment.Center;
+            toolTip.SetToolTip(textBoxBIN, "Prikazuje binarni oblik unetog broja nakon klika na 'Convert'");
             // 
             // buttonac
             // 
-            this.buttonac.BackColor = System.Drawing.Color.White;
-            this.buttonac.Location = new System.Drawing.Point(14, 22);
-            this.buttonac.Name = "buttonac";
-            this.buttonac.Size = new System.Drawing.Size(101, 23);
-            this.buttonac.TabIndex = 24;
-            this.buttonac.Text = "AC";
-            this.toolTip.SetToolTip(this.buttonac, "Resetuje sve vrednosti i čisti kutiju za unos");
-            this.buttonac.UseVisualStyleBackColor = false;
-            this.buttonac.Click += new System.EventHandler(this.buttonac_Click);
+            buttonac.BackColor = Color.White;
+            buttonac.Location = new Point(14, 22);
+            buttonac.Name = "buttonac";
+            buttonac.Size = new Size(101, 23);
+            buttonac.TabIndex = 24;
+            buttonac.Text = "AC";
+            toolTip.SetToolTip(buttonac, "Resetuje sve vrednosti i čisti kutiju za unos");
+            buttonac.UseVisualStyleBackColor = false;
+            buttonac.Click += buttonac_Click;
             // 
             // buttonc
             // 
-            this.buttonc.BackColor = System.Drawing.Color.White;
-            this.buttonc.Location = new System.Drawing.Point(116, 22);
-            this.buttonc.Name = "buttonc";
-            this.buttonc.Size = new System.Drawing.Size(101, 23);
-            this.buttonc.TabIndex = 23;
-            this.buttonc.Text = "C";
-            this.toolTip.SetToolTip(this.buttonc, "Čisti kutiju za unos");
-            this.buttonc.UseCompatibleTextRendering = true;
-            this.buttonc.UseVisualStyleBackColor = false;
-            this.buttonc.Click += new System.EventHandler(this.buttonc_Click);
+            buttonc.BackColor = Color.White;
+            buttonc.Location = new Point(116, 22);
+            buttonc.Name = "buttonc";
+            buttonc.Size = new Size(101, 23);
+            buttonc.TabIndex = 23;
+            buttonc.Text = "C";
+            toolTip.SetToolTip(buttonc, "Čisti kutiju za unos");
+            buttonc.UseCompatibleTextRendering = true;
+            buttonc.UseVisualStyleBackColor = false;
+            buttonc.Click += buttonc_Click;
             // 
             // buttonjednako
             // 
-            this.buttonjednako.BackColor = System.Drawing.Color.White;
-            this.buttonjednako.Location = new System.Drawing.Point(168, 51);
-            this.buttonjednako.Name = "buttonjednako";
-            this.buttonjednako.Size = new System.Drawing.Size(75, 23);
-            this.buttonjednako.TabIndex = 19;
-            this.buttonjednako.Text = "=";
-            this.toolTip.SetToolTip(this.buttonjednako, "Vrši unetu operaciju");
-            this.buttonjednako.UseVisualStyleBackColor = false;
-            this.buttonjednako.Click += new System.EventHandler(this.buttonjednako_Click);
+            buttonjednako.BackColor = Color.White;
+            buttonjednako.Location = new Point(168, 51);
+            buttonjednako.Name = "buttonjednako";
+            buttonjednako.Size = new Size(75, 23);
+            buttonjednako.TabIndex = 19;
+            buttonjednako.Text = "=";
+            toolTip.SetToolTip(buttonjednako, "Vrši unetu operaciju");
+            buttonjednako.UseVisualStyleBackColor = false;
+            buttonjednako.Click += buttonjednako_Click;
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textBox1.Location = new System.Drawing.Point(15, 51);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(151, 23);
-            this.textBox1.TabIndex = 1;
-            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.toolTip.SetToolTip(this.textBox1, "Ovde se upisuju brojevi u kalkulator");
-            this.textBox1.Validating += new System.ComponentModel.CancelEventHandler(this.textBox1_Validating);
+            textBox1.BackColor = Color.FromArgb(128, 255, 255);
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Location = new Point(15, 51);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(151, 23);
+            textBox1.TabIndex = 1;
+            textBox1.TextAlign = HorizontalAlignment.Center;
+            toolTip.SetToolTip(textBox1, "Ovde se upisuju brojevi u kalkulator");
+            textBox1.Validating += textBox1_Validating;
             // 
             // buttonback
             // 
-            this.buttonback.BackColor = System.Drawing.Color.White;
-            this.buttonback.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.buttonback.Location = new System.Drawing.Point(218, 22);
-            this.buttonback.Name = "buttonback";
-            this.buttonback.Size = new System.Drawing.Size(101, 23);
-            this.buttonback.TabIndex = 54;
-            this.buttonback.Text = "⌫";
-            this.toolTip.SetToolTip(this.buttonback, "Briše poslednju cifru");
-            this.buttonback.UseCompatibleTextRendering = true;
-            this.buttonback.UseVisualStyleBackColor = false;
-            this.buttonback.Click += new System.EventHandler(this.buttonback_Click);
+            buttonback.BackColor = Color.White;
+            buttonback.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            buttonback.Location = new Point(218, 22);
+            buttonback.Name = "buttonback";
+            buttonback.Size = new Size(101, 23);
+            buttonback.TabIndex = 54;
+            buttonback.Text = "⌫";
+            toolTip.SetToolTip(buttonback, "Briše poslednju cifru");
+            buttonback.UseCompatibleTextRendering = true;
+            buttonback.UseVisualStyleBackColor = false;
+            buttonback.Click += buttonback_Click;
             // 
             // toolTip1
             // 
-            this.toolTip1.ToolTipTitle = "All clear";
+            toolTip1.ToolTipTitle = "All clear";
             // 
             // panel3
             // 
-            this.panel3.BackColor = System.Drawing.Color.Silver;
-            this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel3.Controls.Add(this.groupBox1);
-            this.panel3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.panel3.Location = new System.Drawing.Point(344, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(196, 284);
-            this.panel3.TabIndex = 67;
+            panel3.BackColor = Color.Silver;
+            panel3.BorderStyle = BorderStyle.FixedSingle;
+            panel3.Controls.Add(groupBox1);
+            panel3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            panel3.Location = new Point(344, 3);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(196, 284);
+            panel3.TabIndex = 67;
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.richTextBoxIST);
-            this.groupBox1.Controls.Add(this.buttonacist);
-            this.groupBox1.Location = new System.Drawing.Point(-1, 0);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(196, 284);
-            this.groupBox1.TabIndex = 62;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Istorija";
+            groupBox1.Controls.Add(richTextBoxIST);
+            groupBox1.Controls.Add(buttonacist);
+            groupBox1.Location = new Point(-1, 0);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(196, 284);
+            groupBox1.TabIndex = 62;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Istorija";
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.Silver;
-            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel2.Controls.Add(this.groupBox4);
-            this.panel2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.panel2.Location = new System.Drawing.Point(3, 135);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(335, 208);
-            this.panel2.TabIndex = 66;
+            panel2.BackColor = Color.Silver;
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(groupBox4);
+            panel2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            panel2.Location = new Point(3, 135);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(335, 208);
+            panel2.TabIndex = 66;
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.button7);
-            this.groupBox4.Controls.Add(this.buttonrm);
-            this.groupBox4.Controls.Add(this.radioButtonRAD);
-            this.groupBox4.Controls.Add(this.buttonplusminus);
-            this.groupBox4.Controls.Add(this.buttonstepen);
-            this.groupBox4.Controls.Add(this.buttonfaktorijal);
-            this.groupBox4.Controls.Add(this.buttonsin);
-            this.groupBox4.Controls.Add(this.button2);
-            this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Controls.Add(this.button1);
-            this.groupBox4.Controls.Add(this.radioButtonDEG);
-            this.groupBox4.Controls.Add(this.buttontacka);
-            this.groupBox4.Controls.Add(this.buttonround);
-            this.groupBox4.Controls.Add(this.buttonrnd);
-            this.groupBox4.Controls.Add(this.buttonkoren);
-            this.groupBox4.Controls.Add(this.buttoncm);
-            this.groupBox4.Controls.Add(this.buttoncos);
-            this.groupBox4.Controls.Add(this.buttonprocenat);
-            this.groupBox4.Controls.Add(this.button6);
-            this.groupBox4.Controls.Add(this.button9);
-            this.groupBox4.Controls.Add(this.buttonatan);
-            this.groupBox4.Controls.Add(this.buttonpi);
-            this.groupBox4.Controls.Add(this.buttonputa);
-            this.groupBox4.Controls.Add(this.button8);
-            this.groupBox4.Controls.Add(this.buttontan);
-            this.groupBox4.Controls.Add(this.buttone);
-            this.groupBox4.Controls.Add(this.buttonm);
-            this.groupBox4.Controls.Add(this.buttonmplus);
-            this.groupBox4.Controls.Add(this.buttonacos);
-            this.groupBox4.Controls.Add(this.buttonpodeljeno);
-            this.groupBox4.Controls.Add(this.buttonminus);
-            this.groupBox4.Controls.Add(this.button0);
-            this.groupBox4.Controls.Add(this.buttonasin);
-            this.groupBox4.Controls.Add(this.button3);
-            this.groupBox4.Controls.Add(this.button4);
-            this.groupBox4.Controls.Add(this.buttonmminus);
-            this.groupBox4.Controls.Add(this.buttonlogx);
-            this.groupBox4.Controls.Add(this.buttonplus);
-            this.groupBox4.Location = new System.Drawing.Point(-1, 0);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(335, 208);
-            this.groupBox4.TabIndex = 65;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Unos i operacije";
+            groupBox4.Controls.Add(button7);
+            groupBox4.Controls.Add(buttonrm);
+            groupBox4.Controls.Add(radioButtonRAD);
+            groupBox4.Controls.Add(buttonplusminus);
+            groupBox4.Controls.Add(buttonstepen);
+            groupBox4.Controls.Add(buttonfaktorijal);
+            groupBox4.Controls.Add(buttonsin);
+            groupBox4.Controls.Add(button2);
+            groupBox4.Controls.Add(button5);
+            groupBox4.Controls.Add(button1);
+            groupBox4.Controls.Add(radioButtonDEG);
+            groupBox4.Controls.Add(buttontacka);
+            groupBox4.Controls.Add(buttonround);
+            groupBox4.Controls.Add(buttonrnd);
+            groupBox4.Controls.Add(buttonkoren);
+            groupBox4.Controls.Add(buttoncm);
+            groupBox4.Controls.Add(buttoncos);
+            groupBox4.Controls.Add(buttonprocenat);
+            groupBox4.Controls.Add(button6);
+            groupBox4.Controls.Add(button9);
+            groupBox4.Controls.Add(buttonatan);
+            groupBox4.Controls.Add(buttonpi);
+            groupBox4.Controls.Add(buttonputa);
+            groupBox4.Controls.Add(button8);
+            groupBox4.Controls.Add(buttontan);
+            groupBox4.Controls.Add(buttone);
+            groupBox4.Controls.Add(buttonm);
+            groupBox4.Controls.Add(buttonmplus);
+            groupBox4.Controls.Add(buttonacos);
+            groupBox4.Controls.Add(buttonpodeljeno);
+            groupBox4.Controls.Add(buttonminus);
+            groupBox4.Controls.Add(button0);
+            groupBox4.Controls.Add(buttonasin);
+            groupBox4.Controls.Add(button3);
+            groupBox4.Controls.Add(button4);
+            groupBox4.Controls.Add(buttonmminus);
+            groupBox4.Controls.Add(buttonlogx);
+            groupBox4.Controls.Add(buttonplus);
+            groupBox4.Location = new Point(-1, 0);
+            groupBox4.Name = "groupBox4";
+            groupBox4.Size = new Size(335, 208);
+            groupBox4.TabIndex = 65;
+            groupBox4.TabStop = false;
+            groupBox4.Text = "Unos i operacije";
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.Silver;
-            this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel4.Controls.Add(this.groupBox2);
-            this.panel4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.panel4.Location = new System.Drawing.Point(344, 293);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(196, 50);
-            this.panel4.TabIndex = 68;
+            panel4.BackColor = Color.Silver;
+            panel4.BorderStyle = BorderStyle.FixedSingle;
+            panel4.Controls.Add(groupBox2);
+            panel4.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            panel4.Location = new Point(344, 293);
+            panel4.Name = "panel4";
+            panel4.Size = new Size(196, 50);
+            panel4.TabIndex = 68;
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.textBoxM);
-            this.groupBox2.Location = new System.Drawing.Point(-1, 0);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(196, 50);
-            this.groupBox2.TabIndex = 63;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Memorija";
+            groupBox2.Controls.Add(textBoxM);
+            groupBox2.Location = new Point(-1, 0);
+            groupBox2.Name = "groupBox2";
+            groupBox2.Size = new Size(196, 50);
+            groupBox2.TabIndex = 63;
+            groupBox2.TabStop = false;
+            groupBox2.Text = "Memorija";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel1.Controls.Add(this.groupBox3);
-            this.panel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(335, 126);
-            this.panel1.TabIndex = 55;
+            panel1.BackColor = Color.Silver;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(groupBox3);
+            panel1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            panel1.Location = new Point(3, 3);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(335, 126);
+            panel1.TabIndex = 55;
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.buttonback);
-            this.groupBox3.Controls.Add(this.textBox1);
-            this.groupBox3.Controls.Add(this.buttonjednako);
-            this.groupBox3.Controls.Add(this.buttonc);
-            this.groupBox3.Controls.Add(this.buttonac);
-            this.groupBox3.Controls.Add(this.textBoxBIN);
-            this.groupBox3.Controls.Add(this.buttonconvert);
-            this.groupBox3.Controls.Add(this.textBoxOCT);
-            this.groupBox3.Controls.Add(this.label5);
-            this.groupBox3.Controls.Add(this.textBoxHEX);
-            this.groupBox3.Controls.Add(this.label4);
-            this.groupBox3.Controls.Add(this.label3);
-            this.groupBox3.Location = new System.Drawing.Point(-1, 0);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(335, 126);
-            this.groupBox3.TabIndex = 64;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Ispis i konverzija";
+            groupBox3.Controls.Add(buttonback);
+            groupBox3.Controls.Add(textBox1);
+            groupBox3.Controls.Add(buttonjednako);
+            groupBox3.Controls.Add(buttonc);
+            groupBox3.Controls.Add(buttonac);
+            groupBox3.Controls.Add(textBoxBIN);
+            groupBox3.Controls.Add(buttonconvert);
+            groupBox3.Controls.Add(textBoxOCT);
+            groupBox3.Controls.Add(label5);
+            groupBox3.Controls.Add(textBoxHEX);
+            groupBox3.Controls.Add(label4);
+            groupBox3.Controls.Add(label3);
+            groupBox3.Location = new Point(-1, 0);
+            groupBox3.Name = "groupBox3";
+            groupBox3.Size = new Size(335, 126);
+            groupBox3.TabIndex = 64;
+            groupBox3.TabStop = false;
+            groupBox3.Text = "Ispis i konverzija";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(252, 106);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(29, 15);
-            this.label5.TabIndex = 50;
-            this.label5.Text = "HEX";
+            label5.AutoSize = true;
+            label5.Location = new Point(252, 106);
+            label5.Name = "label5";
+            label5.Size = new Size(29, 15);
+            label5.TabIndex = 50;
+            label5.Text = "HEX";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(152, 106);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(30, 15);
-            this.label4.TabIndex = 49;
-            this.label4.Text = "OCT";
+            label4.AutoSize = true;
+            label4.Location = new Point(152, 106);
+            label4.Name = "label4";
+            label4.Size = new Size(30, 15);
+            label4.TabIndex = 49;
+            label4.Text = "OCT";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(52, 106);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(26, 15);
-            this.label3.TabIndex = 48;
-            this.label3.Text = "BIN";
+            label3.AutoSize = true;
+            label3.Location = new Point(52, 106);
+            label3.Name = "label3";
+            label3.Size = new Size(26, 15);
+            label3.TabIndex = 48;
+            label3.Text = "BIN";
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Gray;
-            this.panel5.Controls.Add(this.panel1);
-            this.panel5.Controls.Add(this.panel4);
-            this.panel5.Controls.Add(this.panel2);
-            this.panel5.Controls.Add(this.panel3);
-            this.panel5.Location = new System.Drawing.Point(0, 24);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(543, 346);
-            this.panel5.TabIndex = 69;
-            // 
-            // elpisaToolStripMenuItem
-            // 
-            this.elpisaToolStripMenuItem.Name = "elpisaToolStripMenuItem";
-            this.elpisaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.elpisaToolStripMenuItem.Text = "Elipsa";
-            this.elpisaToolStripMenuItem.Click += new System.EventHandler(this.elpisaToolStripMenuItem_Click);
+            panel5.BackColor = Color.Gray;
+            panel5.Controls.Add(panel1);
+            panel5.Controls.Add(panel4);
+            panel5.Controls.Add(panel2);
+            panel5.Controls.Add(panel3);
+            panel5.Location = new Point(0, 24);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(543, 346);
+            panel5.TabIndex = 69;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(543, 370);
-            this.Controls.Add(this.panel5);
-            this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.HelpButton = true;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MainMenuStrip = this.menuStrip1;
-            this.MaximizeBox = false;
-            this.MaximumSize = new System.Drawing.Size(559, 409);
-            this.MinimumSize = new System.Drawing.Size(559, 409);
-            this.Name = "Form1";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Kalkulator";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(543, 370);
+            Controls.Add(panel5);
+            Controls.Add(menuStrip1);
+            Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            HelpButton = true;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MainMenuStrip = menuStrip1;
+            MaximizeBox = false;
+            MaximumSize = new Size(559, 409);
+            MinimumSize = new Size(559, 409);
+            Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Kalkulator";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            panel3.ResumeLayout(false);
+            groupBox1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            groupBox4.ResumeLayout(false);
+            groupBox4.PerformLayout();
+            panel4.ResumeLayout(false);
+            groupBox2.ResumeLayout(false);
+            groupBox2.PerformLayout();
+            panel1.ResumeLayout(false);
+            groupBox3.ResumeLayout(false);
+            groupBox3.PerformLayout();
+            panel5.ResumeLayout(false);
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
@@ -1285,6 +1250,5 @@
         private Label label3;
         private Panel panel5;
         private ToolStripMenuItem kružnicaToolStripMenuItem;
-        private ToolStripMenuItem elpisaToolStripMenuItem;
     }
 }
